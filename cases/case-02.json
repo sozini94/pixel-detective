@@ -1,0 +1,211 @@
+{
+  "id": "case-02",
+  "title": "사라진 레시피 노트",
+  "difficulty": "쉬움",
+  "story": "해바라기 식당의 비법 레시피 노트가 마감 후 사라졌다.",
+  "victim": "식당 주인",
+  "rooms": [
+    "kitchen"
+  ],
+  "suspects": [
+    {
+      "id": "s0",
+      "name": "김주방장",
+      "role": "주방장",
+      "statement": "22시에 퇴근할 때 노트는 제자리에 있었어요.",
+      "portrait": "chef"
+    },
+    {
+      "id": "s1",
+      "name": "이매니저",
+      "role": "홀 매니저",
+      "statement": "마감 후 주방에 들어가지 않았고, 노트 위치도 몰랐어요.",
+      "portrait": "shopkeeper"
+    },
+    {
+      "id": "s2",
+      "name": "최알바",
+      "role": "아르바이트",
+      "statement": "일찍 퇴근해서 주방에는 가지 않았어요.",
+      "portrait": "student"
+    }
+  ],
+  "statements": [
+    {
+      "id": "t0",
+      "suspect": "s0",
+      "text": "22시에 퇴근할 때 노트는 제자리에 있었어요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t1",
+      "suspect": "s1",
+      "text": "마감 후 주방에 들어가지 않았고, 노트 위치도 몰랐어요.",
+      "contradictedBy": [
+        "c0",
+        "c1"
+      ]
+    },
+    {
+      "id": "t2",
+      "suspect": "s2",
+      "text": "일찍 퇴근해서 주방에는 가지 않았어요.",
+      "contradictedBy": []
+    }
+  ],
+  "clues": [
+    {
+      "id": "c0",
+      "name": "마감 점검표",
+      "text": "22시 40분, 이매니저의 가스 점검 서명이 남아 있다.",
+      "icon": "memo",
+      "room": "kitchen",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c1",
+      "name": "인수인계 시트",
+      "text": "이매니저가 노트 위치 확인 항목에 서명했다.",
+      "icon": "documents",
+      "room": "kitchen",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c2",
+      "name": "두꺼운 공책",
+      "text": "최알바 가방에서 두꺼운 공책이 나왔다.",
+      "icon": "memo",
+      "room": "kitchen",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c3",
+      "name": "수업 필기",
+      "text": "공책 안은 조리학과 수업 필기로 채워져 있다.",
+      "icon": "documents",
+      "room": "kitchen",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c4",
+      "name": "케이크 포장지",
+      "text": "최알바가 퇴근 전 케이크를 챙긴 흔적이다.",
+      "icon": "box",
+      "room": "kitchen",
+      "evidence": false,
+      "decoy": true
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "h0",
+      "room": "kitchen",
+      "x": 20,
+      "y": 25,
+      "clue": "c0",
+      "label": "마감 점검표"
+    },
+    {
+      "id": "h1",
+      "room": "kitchen",
+      "x": 47,
+      "y": 25,
+      "clue": "c1",
+      "label": "인수인계 시트"
+    },
+    {
+      "id": "h2",
+      "room": "kitchen",
+      "x": 74,
+      "y": 24,
+      "clue": "c2",
+      "label": "두꺼운 공책"
+    },
+    {
+      "id": "h3",
+      "room": "kitchen",
+      "x": 88,
+      "y": 51,
+      "clue": "c3",
+      "label": "수업 필기"
+    },
+    {
+      "id": "h4",
+      "room": "kitchen",
+      "x": 62,
+      "y": 57,
+      "clue": "c4",
+      "label": "케이크 포장지"
+    },
+    {
+      "id": "h5",
+      "room": "kitchen",
+      "x": 30,
+      "y": 57,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h6",
+      "room": "kitchen",
+      "x": 14,
+      "y": 77,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h7",
+      "room": "kitchen",
+      "x": 44,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h8",
+      "room": "kitchen",
+      "x": 76,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h9",
+      "room": "kitchen",
+      "x": 90,
+      "y": 88,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h10",
+      "room": "kitchen",
+      "x": 22,
+      "y": 45,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h11",
+      "room": "kitchen",
+      "x": 52,
+      "y": 42,
+      "clue": null,
+      "label": "현장 흔적"
+    }
+  ],
+  "solution": {
+    "culprit": "s1",
+    "evidenceClues": [
+      "c0",
+      "c1"
+    ],
+    "explanation": "이매니저는 주방 출입과 노트 위치를 모두 부인했지만 두 서명이 진술과 충돌한다. 최알바의 공책은 수업 필기다."
+  },
+  "maxInvestigations": 8,
+  "maxAttempts": 2
+}

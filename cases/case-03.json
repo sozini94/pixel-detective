@@ -1,0 +1,211 @@
+{
+  "id": "case-03",
+  "title": "새벽의 자전거",
+  "difficulty": "쉬움",
+  "story": "새벽 3시쯤 전기자전거가 사라졌다. 노란 체인 자물쇠가 잘려 있다.",
+  "victim": "자전거 가게 주인",
+  "rooms": [
+    "alley"
+  ],
+  "suspects": [
+    {
+      "id": "s0",
+      "name": "윤알바",
+      "role": "편의점 야간",
+      "statement": "새벽 내내 자리를 비우지 않았어요.",
+      "portrait": "student"
+    },
+    {
+      "id": "s1",
+      "name": "마기사",
+      "role": "배달 기사",
+      "statement": "골목엔 들어가지 않았고, 공구도 안 들고 다녀요.",
+      "portrait": "courier"
+    },
+    {
+      "id": "s2",
+      "name": "송할머니",
+      "role": "이웃",
+      "statement": "새벽 3시쯤 오토바이 소리를 들었어요.",
+      "portrait": "neighbor"
+    }
+  ],
+  "statements": [
+    {
+      "id": "t0",
+      "suspect": "s0",
+      "text": "새벽 내내 자리를 비우지 않았어요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t1",
+      "suspect": "s1",
+      "text": "골목엔 들어가지 않았고, 공구도 안 들고 다녀요.",
+      "contradictedBy": [
+        "c0",
+        "c1"
+      ]
+    },
+    {
+      "id": "t2",
+      "suspect": "s2",
+      "text": "새벽 3시쯤 오토바이 소리를 들었어요.",
+      "contradictedBy": []
+    }
+  ],
+  "clues": [
+    {
+      "id": "c0",
+      "name": "배달앱 기록",
+      "text": "3시 12분, 골목 안 주소에 배달 완료 기록이 남아 있다.",
+      "icon": "phone",
+      "room": "alley",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c1",
+      "name": "볼트 커터 날",
+      "text": "오토바이 수납함 공구에 노란 체인 코팅 조각이 끼어 있다.",
+      "icon": "knife",
+      "room": "alley",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c2",
+      "name": "계산대 공백",
+      "text": "편의점 계산대 기록에 3분간 공백이 있다.",
+      "icon": "receipt",
+      "room": "alley",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c3",
+      "name": "골목 CCTV",
+      "text": "윤알바가 쓰레기를 버리고 바로 돌아오는 모습이다.",
+      "icon": "cctv",
+      "room": "alley",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c4",
+      "name": "잘린 체인",
+      "text": "자물쇠 체인에는 절단 도구의 흔적이 선명하다.",
+      "icon": "key",
+      "room": "alley",
+      "evidence": false,
+      "decoy": true
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "h0",
+      "room": "alley",
+      "x": 20,
+      "y": 25,
+      "clue": "c0",
+      "label": "배달앱 기록"
+    },
+    {
+      "id": "h1",
+      "room": "alley",
+      "x": 47,
+      "y": 25,
+      "clue": "c1",
+      "label": "볼트 커터 날"
+    },
+    {
+      "id": "h2",
+      "room": "alley",
+      "x": 74,
+      "y": 24,
+      "clue": "c2",
+      "label": "계산대 공백"
+    },
+    {
+      "id": "h3",
+      "room": "alley",
+      "x": 88,
+      "y": 51,
+      "clue": "c3",
+      "label": "골목 CCTV"
+    },
+    {
+      "id": "h4",
+      "room": "alley",
+      "x": 62,
+      "y": 57,
+      "clue": "c4",
+      "label": "잘린 체인"
+    },
+    {
+      "id": "h5",
+      "room": "alley",
+      "x": 30,
+      "y": 57,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h6",
+      "room": "alley",
+      "x": 14,
+      "y": 77,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h7",
+      "room": "alley",
+      "x": 44,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h8",
+      "room": "alley",
+      "x": 76,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h9",
+      "room": "alley",
+      "x": 90,
+      "y": 88,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h10",
+      "room": "alley",
+      "x": 22,
+      "y": 45,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h11",
+      "room": "alley",
+      "x": 52,
+      "y": 42,
+      "clue": null,
+      "label": "현장 흔적"
+    }
+  ],
+  "solution": {
+    "culprit": "s1",
+    "evidenceClues": [
+      "c0",
+      "c1"
+    ],
+    "explanation": "마기사는 골목에 오지 않았다고 했지만 배달 기록이 있고, 공구를 부인했지만 체인 조각이 묻은 커터가 발견됐다. 윤알바의 공백은 쓰레기 배출이었다."
+  },
+  "maxInvestigations": 8,
+  "maxAttempts": 2
+}

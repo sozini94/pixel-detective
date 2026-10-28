@@ -1,0 +1,224 @@
+{
+  "id": "case-09",
+  "title": "두 사람의 같은 방",
+  "difficulty": "어려움",
+  "story": "21:00~21:30 펜션 주방 금고에서 현금 80만 원이 사라졌다.",
+  "victim": "펜션 주인",
+  "rooms": [
+    "kitchen"
+  ],
+  "suspects": [
+    {
+      "id": "s0",
+      "name": "고주인",
+      "role": "펜션 주인",
+      "statement": "21시에는 안채에서 정산 중이었어요.",
+      "portrait": "shopkeeper"
+    },
+    {
+      "id": "s1",
+      "name": "도셰프",
+      "role": "셰프",
+      "statement": "21시부터 라와 주방에서 재고를 셌고, 금고 번호 변경은 못 들었어요.",
+      "portrait": "chef"
+    },
+    {
+      "id": "s2",
+      "name": "라",
+      "role": "서빙 직원",
+      "statement": "그 시간 마와 객실 정리를 했어요.",
+      "portrait": "student"
+    },
+    {
+      "id": "s3",
+      "name": "마",
+      "role": "청소원",
+      "statement": "객실 정리 후 세탁실에 있었어요.",
+      "portrait": "neighbor"
+    }
+  ],
+  "statements": [
+    {
+      "id": "t0",
+      "suspect": "s0",
+      "text": "21시에는 안채에서 정산 중이었어요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t1",
+      "suspect": "s1",
+      "text": "21시부터 라와 주방에서 재고를 셌고, 금고 번호 변경은 못 들었어요.",
+      "contradictedBy": [
+        "c0",
+        "c1"
+      ]
+    },
+    {
+      "id": "t2",
+      "suspect": "s2",
+      "text": "그 시간 마와 객실 정리를 했어요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t3",
+      "suspect": "s3",
+      "text": "객실 정리 후 세탁실에 있었어요.",
+      "contradictedBy": []
+    }
+  ],
+  "clues": [
+    {
+      "id": "c0",
+      "name": "객실 정리 체크표",
+      "text": "21시 10분 라와 마가 객실 정리에 서명했다.",
+      "icon": "memo",
+      "room": "kitchen",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c1",
+      "name": "번호 변경 안내문",
+      "text": "금고 번호 변경 안내문에 도셰프 확인 서명이 있다.",
+      "icon": "documents",
+      "room": "kitchen",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c2",
+      "name": "금고 앞 걸레 자국",
+      "text": "금고 앞 바닥에서 마의 걸레 자국이 나왔다.",
+      "icon": "cloth",
+      "room": "kitchen",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c3",
+      "name": "청소 일지",
+      "text": "마는 20시 40분에 주방 청소를 마쳤다.",
+      "icon": "memo",
+      "room": "kitchen",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c4",
+      "name": "팁 기록부",
+      "text": "라의 현금은 손님에게 받은 팁과 금액이 같다.",
+      "icon": "cash",
+      "room": "kitchen",
+      "evidence": false,
+      "decoy": true
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "h0",
+      "room": "kitchen",
+      "x": 20,
+      "y": 25,
+      "clue": "c0",
+      "label": "객실 정리 체크표"
+    },
+    {
+      "id": "h1",
+      "room": "kitchen",
+      "x": 47,
+      "y": 25,
+      "clue": "c1",
+      "label": "번호 변경 안내문"
+    },
+    {
+      "id": "h2",
+      "room": "kitchen",
+      "x": 74,
+      "y": 24,
+      "clue": "c2",
+      "label": "금고 앞 걸레 자국"
+    },
+    {
+      "id": "h3",
+      "room": "kitchen",
+      "x": 88,
+      "y": 51,
+      "clue": "c3",
+      "label": "청소 일지"
+    },
+    {
+      "id": "h4",
+      "room": "kitchen",
+      "x": 62,
+      "y": 57,
+      "clue": "c4",
+      "label": "팁 기록부"
+    },
+    {
+      "id": "h5",
+      "room": "kitchen",
+      "x": 30,
+      "y": 57,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h6",
+      "room": "kitchen",
+      "x": 14,
+      "y": 77,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h7",
+      "room": "kitchen",
+      "x": 44,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h8",
+      "room": "kitchen",
+      "x": 76,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h9",
+      "room": "kitchen",
+      "x": 90,
+      "y": 88,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h10",
+      "room": "kitchen",
+      "x": 22,
+      "y": 45,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h11",
+      "room": "kitchen",
+      "x": 52,
+      "y": 42,
+      "clue": null,
+      "label": "현장 흔적"
+    }
+  ],
+  "solution": {
+    "culprit": "s1",
+    "evidenceClues": [
+      "c0",
+      "c1"
+    ],
+    "explanation": "도셰프와 함께 주방에 있었다는 라는 체크표상 객실에 있었고, 금고 번호 변경을 몰랐다는 말도 본인 서명과 충돌한다."
+  },
+  "maxInvestigations": 8,
+  "maxAttempts": 2
+}

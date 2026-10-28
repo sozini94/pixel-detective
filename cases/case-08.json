@@ -1,0 +1,224 @@
+{
+  "id": "case-08",
+  "title": "두 개의 도둑",
+  "difficulty": "어려움",
+  "story": "비품비 50만 원과 신제품 설계 USB가 함께 사라졌다. 수사 목표는 USB 도둑이다.",
+  "victim": "회사",
+  "rooms": [
+    "office"
+  ],
+  "suspects": [
+    {
+      "id": "s0",
+      "name": "윤팀장",
+      "role": "팀장",
+      "statement": "반출 USB는 개인 백업용이고 이미 반납했어요.",
+      "portrait": "office_worker"
+    },
+    {
+      "id": "s1",
+      "name": "한과장",
+      "role": "과장",
+      "statement": "18시 30분 퇴근 후 곧장 헬스장에 갔고 회사로 돌아오지 않았어요.",
+      "portrait": "shopkeeper"
+    },
+    {
+      "id": "s2",
+      "name": "노대리",
+      "role": "대리",
+      "statement": "현금 봉투는 본 적도 없어요.",
+      "portrait": "student"
+    },
+    {
+      "id": "s3",
+      "name": "차신입",
+      "role": "신입",
+      "statement": "22시까지 야근했어요.",
+      "portrait": "courier"
+    }
+  ],
+  "statements": [
+    {
+      "id": "t0",
+      "suspect": "s0",
+      "text": "반출 USB는 개인 백업용이고 이미 반납했어요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t1",
+      "suspect": "s1",
+      "text": "18시 30분 퇴근 후 곧장 헬스장에 갔고 회사로 돌아오지 않았어요.",
+      "contradictedBy": [
+        "c0",
+        "c1"
+      ]
+    },
+    {
+      "id": "t2",
+      "suspect": "s2",
+      "text": "현금 봉투는 본 적도 없어요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t3",
+      "suspect": "s3",
+      "text": "22시까지 야근했어요.",
+      "contradictedBy": []
+    }
+  ],
+  "clues": [
+    {
+      "id": "c0",
+      "name": "헬스장 입장 기록",
+      "text": "한과장의 헬스장 입장 시각은 19시 55분이다. 회사 출차는 18시 35분.",
+      "icon": "card",
+      "room": "office",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c1",
+      "name": "복합기 인쇄 로그",
+      "text": "19시 20분 회사 복합기에 한과장 계정의 인쇄가 남아 있다.",
+      "icon": "documents",
+      "room": "office",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c2",
+      "name": "현금 봉투",
+      "text": "노대리 서랍에서 현금 봉투가 발견됐다.",
+      "icon": "cash",
+      "room": "office",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c3",
+      "name": "USB 반출 신청서",
+      "text": "윤팀장 USB는 반납 서명이 있고 일련번호가 다르다.",
+      "icon": "usb",
+      "room": "office",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c4",
+      "name": "경비 순찰 일지",
+      "text": "21시에는 이미 USB 보관함이 비어 있었다.",
+      "icon": "memo",
+      "room": "office",
+      "evidence": false,
+      "decoy": true
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "h0",
+      "room": "office",
+      "x": 20,
+      "y": 25,
+      "clue": "c0",
+      "label": "헬스장 입장 기록"
+    },
+    {
+      "id": "h1",
+      "room": "office",
+      "x": 47,
+      "y": 25,
+      "clue": "c1",
+      "label": "복합기 인쇄 로그"
+    },
+    {
+      "id": "h2",
+      "room": "office",
+      "x": 74,
+      "y": 24,
+      "clue": "c2",
+      "label": "현금 봉투"
+    },
+    {
+      "id": "h3",
+      "room": "office",
+      "x": 88,
+      "y": 51,
+      "clue": "c3",
+      "label": "USB 반출 신청서"
+    },
+    {
+      "id": "h4",
+      "room": "office",
+      "x": 62,
+      "y": 57,
+      "clue": "c4",
+      "label": "경비 순찰 일지"
+    },
+    {
+      "id": "h5",
+      "room": "office",
+      "x": 30,
+      "y": 57,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h6",
+      "room": "office",
+      "x": 14,
+      "y": 77,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h7",
+      "room": "office",
+      "x": 44,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h8",
+      "room": "office",
+      "x": 76,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h9",
+      "room": "office",
+      "x": 90,
+      "y": 88,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h10",
+      "room": "office",
+      "x": 22,
+      "y": 45,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h11",
+      "room": "office",
+      "x": 52,
+      "y": 42,
+      "clue": null,
+      "label": "현장 흔적"
+    }
+  ],
+  "solution": {
+    "culprit": "s1",
+    "evidenceClues": [
+      "c0",
+      "c1"
+    ],
+    "explanation": "한과장은 헬스장에 곧장 갔다고 했지만 입장까지 긴 공백이 있었고, 퇴근 후 복귀하지 않았다는 말은 복합기 기록으로 반박된다. 현금 도둑과 USB 도둑은 별개다."
+  },
+  "maxInvestigations": 8,
+  "maxAttempts": 2
+}

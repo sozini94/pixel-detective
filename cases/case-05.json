@@ -1,0 +1,224 @@
+{
+  "id": "case-05",
+  "title": "엘리베이터가 멈춘 사이",
+  "difficulty": "보통",
+  "story": "17:20~18:10 엘리베이터 점검 사이 20층 임원실의 입찰 가격표 사본이 사라졌다.",
+  "victim": "임원",
+  "rooms": [
+    "office"
+  ],
+  "suspects": [
+    {
+      "id": "s0",
+      "name": "임팀장",
+      "role": "팀장",
+      "statement": "18시까지 회의실에 있었고 임원실엔 가지 않았어요.",
+      "portrait": "office_worker"
+    },
+    {
+      "id": "s1",
+      "name": "서대리",
+      "role": "대리",
+      "statement": "엘리베이터가 멈춰 올라갈 수 없었고 15층에서 보고서를 썼어요.",
+      "portrait": "student"
+    },
+    {
+      "id": "s2",
+      "name": "고인턴",
+      "role": "인턴",
+      "statement": "복사실에 있었어요.",
+      "portrait": "courier"
+    },
+    {
+      "id": "s3",
+      "name": "변청소원",
+      "role": "청소원",
+      "statement": "임원실은 18시 이후에 청소해요.",
+      "portrait": "chef"
+    }
+  ],
+  "statements": [
+    {
+      "id": "t0",
+      "suspect": "s0",
+      "text": "18시까지 회의실에 있었고 임원실엔 가지 않았어요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t1",
+      "suspect": "s1",
+      "text": "엘리베이터가 멈춰 올라갈 수 없었고 15층에서 보고서를 썼어요.",
+      "contradictedBy": [
+        "c0",
+        "c1"
+      ]
+    },
+    {
+      "id": "t2",
+      "suspect": "s2",
+      "text": "복사실에 있었어요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t3",
+      "suspect": "s3",
+      "text": "임원실은 18시 이후에 청소해요.",
+      "contradictedBy": []
+    }
+  ],
+  "clues": [
+    {
+      "id": "c0",
+      "name": "비상계단 로그",
+      "text": "17시 41분 서대리 사원증이 20층 방향으로 기록됐다.",
+      "icon": "card",
+      "room": "office",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c1",
+      "name": "PC 사용 기록",
+      "text": "서대리 PC는 17:25부터 18:05까지 사용 흔적이 없다.",
+      "icon": "laptop",
+      "room": "office",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c2",
+      "name": "임원실 지문",
+      "text": "손잡이에서 변청소원 지문이 나왔다.",
+      "icon": "gloves",
+      "room": "office",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c3",
+      "name": "청소 일지",
+      "text": "전날 변청소원이 임원실을 청소했다.",
+      "icon": "memo",
+      "room": "office",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c4",
+      "name": "복합기 기록",
+      "text": "고인턴의 출력물은 대학 과제였다.",
+      "icon": "documents",
+      "room": "office",
+      "evidence": false,
+      "decoy": true
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "h0",
+      "room": "office",
+      "x": 20,
+      "y": 25,
+      "clue": "c0",
+      "label": "비상계단 로그"
+    },
+    {
+      "id": "h1",
+      "room": "office",
+      "x": 47,
+      "y": 25,
+      "clue": "c1",
+      "label": "PC 사용 기록"
+    },
+    {
+      "id": "h2",
+      "room": "office",
+      "x": 74,
+      "y": 24,
+      "clue": "c2",
+      "label": "임원실 지문"
+    },
+    {
+      "id": "h3",
+      "room": "office",
+      "x": 88,
+      "y": 51,
+      "clue": "c3",
+      "label": "청소 일지"
+    },
+    {
+      "id": "h4",
+      "room": "office",
+      "x": 62,
+      "y": 57,
+      "clue": "c4",
+      "label": "복합기 기록"
+    },
+    {
+      "id": "h5",
+      "room": "office",
+      "x": 30,
+      "y": 57,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h6",
+      "room": "office",
+      "x": 14,
+      "y": 77,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h7",
+      "room": "office",
+      "x": 44,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h8",
+      "room": "office",
+      "x": 76,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h9",
+      "room": "office",
+      "x": 90,
+      "y": 88,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h10",
+      "room": "office",
+      "x": 22,
+      "y": 45,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h11",
+      "room": "office",
+      "x": 52,
+      "y": 42,
+      "clue": null,
+      "label": "현장 흔적"
+    }
+  ],
+  "solution": {
+    "culprit": "s1",
+    "evidenceClues": [
+      "c0",
+      "c1"
+    ],
+    "explanation": "계단 출입 로그는 20층에 갈 수 없었다는 서대리의 진술을 깨고, PC 로그는 보고서를 썼다는 말과 충돌한다."
+  },
+  "maxInvestigations": 8,
+  "maxAttempts": 2
+}

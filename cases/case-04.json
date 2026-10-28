@@ -1,0 +1,224 @@
+{
+  "id": "case-04",
+  "title": "제야의 정전",
+  "difficulty": "보통",
+  "story": "12월 31일 오후 8시, 5분간의 정전 중 장식장의 은시계가 사라졌다.",
+  "victim": "집주인",
+  "rooms": [
+    "living"
+  ],
+  "suspects": [
+    {
+      "id": "s0",
+      "name": "서윤",
+      "role": "큰딸",
+      "statement": "정전 때 주방에서 촛불을 찾았어요.",
+      "portrait": "student"
+    },
+    {
+      "id": "s1",
+      "name": "도현",
+      "role": "사위",
+      "statement": "동네 전체가 정전됐고 장식장 열쇠는 가져간 적 없어요.",
+      "portrait": "office_worker"
+    },
+    {
+      "id": "s2",
+      "name": "구씨",
+      "role": "집사",
+      "statement": "정전 내내 거실에 있었고 시계는 만진 적 없어요.",
+      "portrait": "guard"
+    },
+    {
+      "id": "s3",
+      "name": "하나",
+      "role": "이웃 친구",
+      "statement": "서윤과 함께 주방에 있었어요.",
+      "portrait": "neighbor"
+    }
+  ],
+  "statements": [
+    {
+      "id": "t0",
+      "suspect": "s0",
+      "text": "정전 때 주방에서 촛불을 찾았어요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t1",
+      "suspect": "s1",
+      "text": "동네 전체가 정전됐고 장식장 열쇠는 가져간 적 없어요.",
+      "contradictedBy": [
+        "c0",
+        "c1"
+      ]
+    },
+    {
+      "id": "t2",
+      "suspect": "s2",
+      "text": "정전 내내 거실에 있었고 시계는 만진 적 없어요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t3",
+      "suspect": "s3",
+      "text": "서윤과 함께 주방에 있었어요.",
+      "contradictedBy": []
+    }
+  ],
+  "clues": [
+    {
+      "id": "c0",
+      "name": "이웃집 불빛",
+      "text": "정전 중에도 창밖 이웃집에는 불이 켜져 있었다.",
+      "icon": "photo",
+      "room": "living",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c1",
+      "name": "열쇠걸이 메모",
+      "text": "12/30 도현 반출이라는 열쇠 기록이 남아 있다.",
+      "icon": "key",
+      "room": "living",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c2",
+      "name": "은시계 줄 조각",
+      "text": "구씨 주머니에서 은시계 줄 조각이 발견됐다.",
+      "icon": "watch",
+      "room": "living",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c3",
+      "name": "줄 교체 업무 메모",
+      "text": "전날 은시계 줄 교체를 맡았다는 메모다.",
+      "icon": "memo",
+      "room": "living",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c4",
+      "name": "주방 사진",
+      "text": "20시 1분 주방 사진에 서윤이 찍혀 있다.",
+      "icon": "photo",
+      "room": "living",
+      "evidence": false,
+      "decoy": true
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "h0",
+      "room": "living",
+      "x": 20,
+      "y": 25,
+      "clue": "c0",
+      "label": "이웃집 불빛"
+    },
+    {
+      "id": "h1",
+      "room": "living",
+      "x": 47,
+      "y": 25,
+      "clue": "c1",
+      "label": "열쇠걸이 메모"
+    },
+    {
+      "id": "h2",
+      "room": "living",
+      "x": 74,
+      "y": 24,
+      "clue": "c2",
+      "label": "은시계 줄 조각"
+    },
+    {
+      "id": "h3",
+      "room": "living",
+      "x": 88,
+      "y": 51,
+      "clue": "c3",
+      "label": "줄 교체 업무 메모"
+    },
+    {
+      "id": "h4",
+      "room": "living",
+      "x": 62,
+      "y": 57,
+      "clue": "c4",
+      "label": "주방 사진"
+    },
+    {
+      "id": "h5",
+      "room": "living",
+      "x": 30,
+      "y": 57,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h6",
+      "room": "living",
+      "x": 14,
+      "y": 77,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h7",
+      "room": "living",
+      "x": 44,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h8",
+      "room": "living",
+      "x": 76,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h9",
+      "room": "living",
+      "x": 90,
+      "y": 88,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h10",
+      "room": "living",
+      "x": 22,
+      "y": 45,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h11",
+      "room": "living",
+      "x": 52,
+      "y": 42,
+      "clue": null,
+      "label": "현장 흔적"
+    }
+  ],
+  "solution": {
+    "culprit": "s1",
+    "evidenceClues": [
+      "c0",
+      "c1"
+    ],
+    "explanation": "도현이 주장한 동네 전체 정전은 이웃집 불빛과 충돌하고, 열쇠를 가져간 적 없다는 말은 반출 메모와 모순이다."
+  },
+  "maxInvestigations": 8,
+  "maxAttempts": 2
+}

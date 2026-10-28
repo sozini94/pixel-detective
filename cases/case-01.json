@@ -1,0 +1,211 @@
+{
+  "id": "case-01",
+  "title": "빈 금고의 밤",
+  "difficulty": "쉬움",
+  "story": "밤사이 사장실 금고의 현금 3천만 원이 사라졌다. 금고에는 파손 흔적이 없다.",
+  "victim": "오 사장",
+  "rooms": [
+    "office"
+  ],
+  "suspects": [
+    {
+      "id": "s0",
+      "name": "한비서",
+      "role": "비서",
+      "statement": "6시에 퇴근해서 돌아오지 않았어요. 금고 번호도 몰라요.",
+      "portrait": "office_worker"
+    },
+    {
+      "id": "s1",
+      "name": "박대리",
+      "role": "영업",
+      "statement": "어제는 외근이라 사무실에 오지 않았어요.",
+      "portrait": "student"
+    },
+    {
+      "id": "s2",
+      "name": "정경리",
+      "role": "경리",
+      "statement": "결산 때문에 9시까지 경리실에 있었어요.",
+      "portrait": "neighbor"
+    }
+  ],
+  "statements": [
+    {
+      "id": "t0",
+      "suspect": "s0",
+      "text": "6시에 퇴근해서 돌아오지 않았어요. 금고 번호도 몰라요.",
+      "contradictedBy": [
+        "c0",
+        "c1"
+      ]
+    },
+    {
+      "id": "t1",
+      "suspect": "s1",
+      "text": "어제는 외근이라 사무실에 오지 않았어요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t2",
+      "suspect": "s2",
+      "text": "결산 때문에 9시까지 경리실에 있었어요.",
+      "contradictedBy": []
+    }
+  ],
+  "clues": [
+    {
+      "id": "c0",
+      "name": "로비 CCTV",
+      "text": "21시 10분 로비 CCTV에 한비서가 찍혀 있다.",
+      "icon": "cctv",
+      "room": "office",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c1",
+      "name": "금고 번호 메모",
+      "text": "한비서 서랍에서 금고 번호가 적힌 메모를 찾았다.",
+      "icon": "memo",
+      "room": "office",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c2",
+      "name": "금고 손잡이 지문",
+      "text": "금고 손잡이에서 박대리 지문이 발견됐다.",
+      "icon": "gloves",
+      "room": "office",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c3",
+      "name": "사장 일정표",
+      "text": "15시 박대리 서류 보관 지시가 적혀 있다.",
+      "icon": "documents",
+      "room": "office",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c4",
+      "name": "경리실 출입 기록",
+      "text": "정경리는 21시까지 경리실에 있었다.",
+      "icon": "receipt",
+      "room": "office",
+      "evidence": false,
+      "decoy": true
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "h0",
+      "room": "office",
+      "x": 20,
+      "y": 25,
+      "clue": "c0",
+      "label": "로비 CCTV"
+    },
+    {
+      "id": "h1",
+      "room": "office",
+      "x": 47,
+      "y": 25,
+      "clue": "c1",
+      "label": "금고 번호 메모"
+    },
+    {
+      "id": "h2",
+      "room": "office",
+      "x": 74,
+      "y": 24,
+      "clue": "c2",
+      "label": "금고 손잡이 지문"
+    },
+    {
+      "id": "h3",
+      "room": "office",
+      "x": 88,
+      "y": 51,
+      "clue": "c3",
+      "label": "사장 일정표"
+    },
+    {
+      "id": "h4",
+      "room": "office",
+      "x": 62,
+      "y": 57,
+      "clue": "c4",
+      "label": "경리실 출입 기록"
+    },
+    {
+      "id": "h5",
+      "room": "office",
+      "x": 30,
+      "y": 57,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h6",
+      "room": "office",
+      "x": 14,
+      "y": 77,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h7",
+      "room": "office",
+      "x": 44,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h8",
+      "room": "office",
+      "x": 76,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h9",
+      "room": "office",
+      "x": 90,
+      "y": 88,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h10",
+      "room": "office",
+      "x": 22,
+      "y": 45,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h11",
+      "room": "office",
+      "x": 52,
+      "y": 42,
+      "clue": null,
+      "label": "현장 흔적"
+    }
+  ],
+  "solution": {
+    "culprit": "s0",
+    "evidenceClues": [
+      "c0",
+      "c1"
+    ],
+    "explanation": "한비서는 퇴근 후 돌아오지 않았다고 했지만 CCTV에 찍혔고, 번호를 모른다면서 번호 메모를 소지했다. 박대리의 지문은 오후 서류 보관 업무로 설명된다."
+  },
+  "maxInvestigations": 8,
+  "maxAttempts": 2
+}

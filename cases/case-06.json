@@ -1,0 +1,224 @@
+{
+  "id": "case-06",
+  "title": "영수증의 시각",
+  "difficulty": "보통",
+  "story": "골목 보석 가게 진열장이 새벽 2시경 깨지고 반지 한 개가 사라졌다.",
+  "victim": "보석상",
+  "rooms": [
+    "alley"
+  ],
+  "suspects": [
+    {
+      "id": "s0",
+      "name": "오주인",
+      "role": "가게 주인",
+      "statement": "사건 시각엔 응급실에 있었어요.",
+      "portrait": "shopkeeper"
+    },
+    {
+      "id": "s1",
+      "name": "지씨",
+      "role": "단골 손님",
+      "statement": "새벽엔 집에서 잤어요.",
+      "portrait": "neighbor"
+    },
+    {
+      "id": "s2",
+      "name": "방씨",
+      "role": "순찰 알바",
+      "statement": "유리 소리를 듣고 신고했어요.",
+      "portrait": "guard"
+    },
+    {
+      "id": "s3",
+      "name": "연사장",
+      "role": "카페 사장",
+      "statement": "3시까지 카페에서 정산했고 보석 가게 안엔 들어간 적 없어요.",
+      "portrait": "chef"
+    }
+  ],
+  "statements": [
+    {
+      "id": "t0",
+      "suspect": "s0",
+      "text": "사건 시각엔 응급실에 있었어요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t1",
+      "suspect": "s1",
+      "text": "새벽엔 집에서 잤어요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t2",
+      "suspect": "s2",
+      "text": "유리 소리를 듣고 신고했어요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t3",
+      "suspect": "s3",
+      "text": "3시까지 카페에서 정산했고 보석 가게 안엔 들어간 적 없어요.",
+      "contradictedBy": [
+        "c0",
+        "c1"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "c0",
+      "name": "카페 경비 기록",
+      "text": "카페 경비 시스템이 1시 10분에 작동 시작됐다.",
+      "icon": "laptop",
+      "room": "alley",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c1",
+      "name": "앞치마 단추",
+      "text": "깨진 진열장 유리에 카페 앞치마 단추가 끼어 있다.",
+      "icon": "gloves",
+      "room": "alley",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c2",
+      "name": "장갑의 유리 가루",
+      "text": "방씨 장갑에 유리 가루가 묻어 있다.",
+      "icon": "gloves",
+      "room": "alley",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c3",
+      "name": "순찰 신고 일지",
+      "text": "방씨는 신고 후 유리 조각이 흩어진 현장을 확인했다.",
+      "icon": "memo",
+      "room": "alley",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c4",
+      "name": "응급실 접수증",
+      "text": "오주인의 응급실 기록은 0시 30분부터 3시까지다.",
+      "icon": "receipt",
+      "room": "alley",
+      "evidence": false,
+      "decoy": true
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "h0",
+      "room": "alley",
+      "x": 20,
+      "y": 25,
+      "clue": "c0",
+      "label": "카페 경비 기록"
+    },
+    {
+      "id": "h1",
+      "room": "alley",
+      "x": 47,
+      "y": 25,
+      "clue": "c1",
+      "label": "앞치마 단추"
+    },
+    {
+      "id": "h2",
+      "room": "alley",
+      "x": 74,
+      "y": 24,
+      "clue": "c2",
+      "label": "장갑의 유리 가루"
+    },
+    {
+      "id": "h3",
+      "room": "alley",
+      "x": 88,
+      "y": 51,
+      "clue": "c3",
+      "label": "순찰 신고 일지"
+    },
+    {
+      "id": "h4",
+      "room": "alley",
+      "x": 62,
+      "y": 57,
+      "clue": "c4",
+      "label": "응급실 접수증"
+    },
+    {
+      "id": "h5",
+      "room": "alley",
+      "x": 30,
+      "y": 57,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h6",
+      "room": "alley",
+      "x": 14,
+      "y": 77,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h7",
+      "room": "alley",
+      "x": 44,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h8",
+      "room": "alley",
+      "x": 76,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h9",
+      "room": "alley",
+      "x": 90,
+      "y": 88,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h10",
+      "room": "alley",
+      "x": 22,
+      "y": 45,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h11",
+      "room": "alley",
+      "x": 52,
+      "y": 42,
+      "clue": null,
+      "label": "현장 흔적"
+    }
+  ],
+  "solution": {
+    "culprit": "s3",
+    "evidenceClues": [
+      "c0",
+      "c1"
+    ],
+    "explanation": "연사장은 새벽 3시까지 카페에 있었다고 했지만 1시 10분부터 경비가 켜져 있었고, 보석 가게 출입 부인은 앞치마 단추와 맞지 않는다."
+  },
+  "maxInvestigations": 8,
+  "maxAttempts": 2
+}

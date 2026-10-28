@@ -1,0 +1,224 @@
+{
+  "id": "case-07",
+  "title": "쌍둥이의 알리바이",
+  "difficulty": "보통",
+  "story": "20:10~20:20 생일 파티에서 케이크 위 약혼반지 상자가 사라졌다.",
+  "victim": "파티 주최자",
+  "rooms": [
+    "living"
+  ],
+  "suspects": [
+    {
+      "id": "s0",
+      "name": "하준",
+      "role": "쌍둥이 형",
+      "statement": "계속 소파에 있었고 2층엔 올라가지 않았어요.",
+      "portrait": "office_worker"
+    },
+    {
+      "id": "s1",
+      "name": "하율",
+      "role": "쌍둥이 동생",
+      "statement": "형과 저는 파티 내내 같이 있었어요.",
+      "portrait": "office_worker"
+    },
+    {
+      "id": "s2",
+      "name": "소이",
+      "role": "친구",
+      "statement": "상자는 20시 15분에도 케이크 위에 있었어요.",
+      "portrait": "student"
+    },
+    {
+      "id": "s3",
+      "name": "다은",
+      "role": "사촌 누나",
+      "statement": "처음에는 못 봤지만, 하준이 계단을 올라가는 걸 봤어요.",
+      "portrait": "neighbor"
+    }
+  ],
+  "statements": [
+    {
+      "id": "t0",
+      "suspect": "s0",
+      "text": "계속 소파에 있었고 2층엔 올라가지 않았어요.",
+      "contradictedBy": [
+        "c0",
+        "c1"
+      ]
+    },
+    {
+      "id": "t1",
+      "suspect": "s1",
+      "text": "형과 저는 파티 내내 같이 있었어요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t2",
+      "suspect": "s2",
+      "text": "상자는 20시 15분에도 케이크 위에 있었어요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t3",
+      "suspect": "s3",
+      "text": "처음에는 못 봤지만, 하준이 계단을 올라가는 걸 봤어요.",
+      "contradictedBy": []
+    }
+  ],
+  "clues": [
+    {
+      "id": "c0",
+      "name": "소파 사진",
+      "text": "20시 10분 소파에 앉은 사람은 오른손목에 시계를 찼다.",
+      "icon": "photo",
+      "room": "living",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c1",
+      "name": "연두색 페인트",
+      "text": "하준 재킷 소매에 2층 방문과 같은 페인트가 묻어 있다.",
+      "icon": "cloth",
+      "room": "living",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c2",
+      "name": "쌍둥이 액자",
+      "text": "하율은 왼손잡이라 시계를 오른손목에 찬다는 설명이 있다.",
+      "icon": "photo",
+      "room": "living",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c3",
+      "name": "선물 상자",
+      "text": "소이 가방에 반지 상자처럼 보이는 작은 상자가 있다.",
+      "icon": "box",
+      "room": "living",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c4",
+      "name": "귀걸이 영수증",
+      "text": "선물 상자는 귀걸이 제품 포장임을 알 수 있다.",
+      "icon": "receipt",
+      "room": "living",
+      "evidence": false,
+      "decoy": true
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "h0",
+      "room": "living",
+      "x": 20,
+      "y": 25,
+      "clue": "c0",
+      "label": "소파 사진"
+    },
+    {
+      "id": "h1",
+      "room": "living",
+      "x": 47,
+      "y": 25,
+      "clue": "c1",
+      "label": "연두색 페인트"
+    },
+    {
+      "id": "h2",
+      "room": "living",
+      "x": 74,
+      "y": 24,
+      "clue": "c2",
+      "label": "쌍둥이 액자"
+    },
+    {
+      "id": "h3",
+      "room": "living",
+      "x": 88,
+      "y": 51,
+      "clue": "c3",
+      "label": "선물 상자"
+    },
+    {
+      "id": "h4",
+      "room": "living",
+      "x": 62,
+      "y": 57,
+      "clue": "c4",
+      "label": "귀걸이 영수증"
+    },
+    {
+      "id": "h5",
+      "room": "living",
+      "x": 30,
+      "y": 57,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h6",
+      "room": "living",
+      "x": 14,
+      "y": 77,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h7",
+      "room": "living",
+      "x": 44,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h8",
+      "room": "living",
+      "x": 76,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h9",
+      "room": "living",
+      "x": 90,
+      "y": 88,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h10",
+      "room": "living",
+      "x": 22,
+      "y": 45,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h11",
+      "room": "living",
+      "x": 52,
+      "y": 42,
+      "clue": null,
+      "label": "현장 흔적"
+    }
+  ],
+  "solution": {
+    "culprit": "s0",
+    "evidenceClues": [
+      "c0",
+      "c1"
+    ],
+    "explanation": "소파 사진 속 인물은 액자의 손목시계 습관을 대조하면 하율이다. 하준의 2층 출입은 소매의 페인트가 뒷받침한다."
+  },
+  "maxInvestigations": 8,
+  "maxAttempts": 2
+}

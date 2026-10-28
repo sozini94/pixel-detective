@@ -1,0 +1,266 @@
+{
+  "id": "case-10",
+  "title": "마지막 건배",
+  "difficulty": "특별",
+  "story": "집들이 파티 중 20시 30분쯤 한정판 LP가 사라졌다. 세 장소를 조사하라.",
+  "victim": "서주인",
+  "rooms": [
+    "living",
+    "kitchen",
+    "alley"
+  ],
+  "suspects": [
+    {
+      "id": "s0",
+      "name": "서주인",
+      "role": "집주인",
+      "statement": "LP는 20시 20분까지 장식장에 있었어요.",
+      "portrait": "shopkeeper"
+    },
+    {
+      "id": "s1",
+      "name": "우",
+      "role": "친구",
+      "statement": "주방에서 요리를 도왔어요.",
+      "portrait": "chef"
+    },
+    {
+      "id": "s2",
+      "name": "진",
+      "role": "친구",
+      "statement": "거실엔 안 갔고 LP에 관심 없고 20시 30분 골목에서 택배 기사와 통화했어요.",
+      "portrait": "mystery"
+    },
+    {
+      "id": "s3",
+      "name": "하",
+      "role": "옛 연인",
+      "statement": "내가 선물한 LP라 의심받을까 불안해요.",
+      "portrait": "neighbor"
+    },
+    {
+      "id": "s4",
+      "name": "설",
+      "role": "이웃",
+      "statement": "일찍 돌아갔어요.",
+      "portrait": "student"
+    }
+  ],
+  "statements": [
+    {
+      "id": "t0",
+      "suspect": "s0",
+      "text": "LP는 20시 20분까지 장식장에 있었어요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t1",
+      "suspect": "s1",
+      "text": "주방에서 요리를 도왔어요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t2",
+      "suspect": "s2",
+      "text": "거실엔 안 갔고 LP에 관심 없고 20시 30분 골목에서 택배 기사와 통화했어요.",
+      "contradictedBy": [
+        "c0",
+        "c1",
+        "c2"
+      ]
+    },
+    {
+      "id": "t3",
+      "suspect": "s3",
+      "text": "내가 선물한 LP라 의심받을까 불안해요.",
+      "contradictedBy": []
+    },
+    {
+      "id": "t4",
+      "suspect": "s4",
+      "text": "일찍 돌아갔어요.",
+      "contradictedBy": []
+    }
+  ],
+  "clues": [
+    {
+      "id": "c0",
+      "name": "소파 아래 선글라스",
+      "text": "거실 소파 아래에서 진의 선글라스가 발견됐다.",
+      "icon": "photo",
+      "room": "living",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c1",
+      "name": "중고 거래 알림",
+      "text": "진의 휴대폰에 같은 LP 구매 문의 답장이 20시에 도착했다.",
+      "icon": "phone",
+      "room": "kitchen",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c2",
+      "name": "택배 보관함 기록",
+      "text": "택배 기사의 방문은 20시 10분에 끝났다.",
+      "icon": "documents",
+      "room": "alley",
+      "evidence": true,
+      "decoy": false
+    },
+    {
+      "id": "c3",
+      "name": "LP 크기 상자",
+      "text": "우의 가방에서 LP 크기의 상자가 발견됐다.",
+      "icon": "box",
+      "room": "living",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c4",
+      "name": "보드게임 포장",
+      "text": "상자 안에는 집들이 선물 보드게임이 들어 있다.",
+      "icon": "box",
+      "room": "kitchen",
+      "evidence": false,
+      "decoy": true
+    },
+    {
+      "id": "c5",
+      "name": "주방 단체 사진",
+      "text": "20시 30분 하와 우가 주방에서 요리 중인 사진이다.",
+      "icon": "photo",
+      "room": "alley",
+      "evidence": false,
+      "decoy": true
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "h0",
+      "room": "living",
+      "x": 20,
+      "y": 25,
+      "clue": "c0",
+      "label": "소파 아래 선글라스"
+    },
+    {
+      "id": "h1",
+      "room": "kitchen",
+      "x": 47,
+      "y": 25,
+      "clue": "c1",
+      "label": "중고 거래 알림"
+    },
+    {
+      "id": "h2",
+      "room": "alley",
+      "x": 74,
+      "y": 24,
+      "clue": "c2",
+      "label": "택배 보관함 기록"
+    },
+    {
+      "id": "h3",
+      "room": "living",
+      "x": 88,
+      "y": 51,
+      "clue": "c3",
+      "label": "LP 크기 상자"
+    },
+    {
+      "id": "h4",
+      "room": "kitchen",
+      "x": 62,
+      "y": 57,
+      "clue": "c4",
+      "label": "보드게임 포장"
+    },
+    {
+      "id": "h5",
+      "room": "alley",
+      "x": 30,
+      "y": 57,
+      "clue": "c5",
+      "label": "주방 단체 사진"
+    },
+    {
+      "id": "h6",
+      "room": "living",
+      "x": 14,
+      "y": 77,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h7",
+      "room": "kitchen",
+      "x": 44,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h8",
+      "room": "alley",
+      "x": 76,
+      "y": 78,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h9",
+      "room": "living",
+      "x": 90,
+      "y": 88,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h10",
+      "room": "kitchen",
+      "x": 22,
+      "y": 45,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h11",
+      "room": "alley",
+      "x": 52,
+      "y": 42,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h12",
+      "room": "living",
+      "x": 69,
+      "y": 40,
+      "clue": null,
+      "label": "현장 흔적"
+    },
+    {
+      "id": "h13",
+      "room": "kitchen",
+      "x": 34,
+      "y": 90,
+      "clue": null,
+      "label": "현장 흔적"
+    }
+  ],
+  "solution": {
+    "culprit": "s2",
+    "evidenceClues": [
+      "c0",
+      "c1",
+      "c2"
+    ],
+    "explanation": "진의 거실 출입 부인은 선글라스, LP에 관심 없다는 말은 거래 알림, 택배 기사와 통화했다는 말은 보관함 기록과 충돌한다."
+  },
+  "maxInvestigations": 8,
+  "maxAttempts": 2
+}
