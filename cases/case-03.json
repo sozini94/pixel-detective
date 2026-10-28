@@ -140,62 +140,6 @@
       "y": 57,
       "clue": "c4",
       "label": "잘린 체인"
-    },
-    {
-      "id": "h5",
-      "room": "alley",
-      "x": 30,
-      "y": 57,
-      "clue": null,
-      "label": "현장 흔적"
-    },
-    {
-      "id": "h6",
-      "room": "alley",
-      "x": 14,
-      "y": 77,
-      "clue": null,
-      "label": "현장 흔적"
-    },
-    {
-      "id": "h7",
-      "room": "alley",
-      "x": 44,
-      "y": 78,
-      "clue": null,
-      "label": "현장 흔적"
-    },
-    {
-      "id": "h8",
-      "room": "alley",
-      "x": 76,
-      "y": 78,
-      "clue": null,
-      "label": "현장 흔적"
-    },
-    {
-      "id": "h9",
-      "room": "alley",
-      "x": 90,
-      "y": 88,
-      "clue": null,
-      "label": "현장 흔적"
-    },
-    {
-      "id": "h10",
-      "room": "alley",
-      "x": 22,
-      "y": 45,
-      "clue": null,
-      "label": "현장 흔적"
-    },
-    {
-      "id": "h11",
-      "room": "alley",
-      "x": 52,
-      "y": 42,
-      "clue": null,
-      "label": "현장 흔적"
     }
   ],
   "solution": {

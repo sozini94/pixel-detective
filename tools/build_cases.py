@@ -21,12 +21,11 @@ for idx,(title,difficulty,room,story,victim,suspects,culprit,clues,explanation) 
  cc=[]
  for i,(name,description,icon) in enumerate(clues):
   cc.append({'id':f'c{i}','name':name,'text':description,'icon':icon,'room':rooms[i%len(rooms)],'evidence':i<evidence_count,'decoy':i>=evidence_count})
- # 12 visible hotspots per case including some empty finds. Clues first, then filler.
+ # Only real, distinct, obtainable clues become hotspots. No empty traps.
  hotspots=[]
  points=[(20,25),(47,25),(74,24),(88,51),(62,57),(30,57),(14,77),(44,78),(76,78),(90,88),(22,45),(52,42),(69,40),(34,90)]
- for j in range(12 if idx<10 else 14):
-  c=cc[j] if j<len(cc) else None
-  hotspots.append({'id':f'h{j}','room':c['room'] if c else rooms[j%len(rooms)],'x':points[j][0],'y':points[j][1],'clue':c['id'] if c else None,'label':c['name'] if c else '현장 흔적'})
+ for j,c in enumerate(cc):
+  hotspots.append({'id':f'h{j}','room':c['room'],'x':points[j][0],'y':points[j][1],'clue':c['id'],'label':c['name']})
  # ensure two statements split for culprit, and indirect clue link to first two statements
  statements=[]
  culprit_text=suspects[culprit][2]

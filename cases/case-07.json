@@ -153,62 +153,6 @@
       "y": 57,
       "clue": "c4",
       "label": "귀걸이 영수증"
-    },
-    {
-      "id": "h5",
-      "room": "living",
-      "x": 30,
-      "y": 57,
-      "clue": null,
-      "label": "현장 흔적"
-    },
-    {
-      "id": "h6",
-      "room": "living",
-      "x": 14,
-      "y": 77,
-      "clue": null,
-      "label": "현장 흔적"
-    },
-    {
-      "id": "h7",
-      "room": "living",
-      "x": 44,
-      "y": 78,
-      "clue": null,
-      "label": "현장 흔적"
-    },
-    {
-      "id": "h8",
-      "room": "living",
-      "x": 76,
-      "y": 78,
-      "clue": null,
-      "label": "현장 흔적"
-    },
-    {
-      "id": "h9",
-      "room": "living",
-      "x": 90,
-      "y": 88,
-      "clue": null,
-      "label": "현장 흔적"
-    },
-    {
-      "id": "h10",
-      "room": "living",
-      "x": 22,
-      "y": 45,
-      "clue": null,
-      "label": "현장 흔적"
-    },
-    {
-      "id": "h11",
-      "room": "living",
-      "x": 52,
-      "y": 42,
-      "clue": null,
-      "label": "현장 흔적"
     }
   ],
   "solution": {

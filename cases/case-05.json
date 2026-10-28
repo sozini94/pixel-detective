@@ -153,62 +153,6 @@
       "y": 57,
       "clue": "c4",
       "label": "복합기 기록"
-    },
-    {
-      "id": "h5",
-      "room": "office",
-      "x": 30,
-      "y": 57,
-      "clue": null,
-      "label": "현장 흔적"
-    },
-    {
-      "id": "h6",
-      "room": "office",
-      "x": 14,
-      "y": 77,
-      "clue": null,
-      "label": "현장 흔적"
-    },
-    {
-      "id": "h7",
-      "room": "office",
-      "x": 44,
-      "y": 78,
-      "clue": null,
-      "label": "현장 흔적"
-    },
-    {
-      "id": "h8",
-      "room": "office",
-      "x": 76,
-      "y": 78,
-      "clue": null,
-      "label": "현장 흔적"
-    },
-    {
-      "id": "h9",
-      "room": "office",
-      "x": 90,
-      "y": 88,
-      "clue": null,
-      "label": "현장 흔적"
-    },
-    {
-      "id": "h10",
-      "room": "office",
-      "x": 22,
-      "y": 45,
-      "clue": null,
-      "label": "현장 흔적"
-    },
-    {
-      "id": "h11",
-      "room": "office",
-      "x": 52,
-      "y": 42,
-      "clue": null,
-      "label": "현장 흔적"
     }
   ],
   "solution": {
