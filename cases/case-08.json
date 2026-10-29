@@ -1,11 +1,14 @@
 {
   "id": "case-08",
   "title": "두 개의 도둑",
-  "difficulty": "어려움",
-  "story": "비품비 50만 원과 신제품 설계 USB가 함께 사라졌다. 수사 목표는 USB 도둑이다.",
+  "difficulty": "최상급",
+  "story": "비품비 50만 원과 신제품 설계 USB가 함께 사라졌다. 수사 목표는 USB 도둑이다. 사건 관련 기록은 여러 공간에 흩어져 있다. 서로 다른 장소의 기록과 진술을 대조해야 한다.",
   "victim": "회사",
   "rooms": [
-    "office"
+    "office",
+    "storage",
+    "hallway",
+    "entrance"
   ],
   "suspects": [
     {
@@ -81,7 +84,7 @@
       "name": "복합기 인쇄 로그",
       "text": "19시 20분 회사 복합기에 한과장 계정의 인쇄가 남아 있다.",
       "icon": "documents",
-      "room": "office",
+      "room": "hallway",
       "evidence": true,
       "decoy": false
     },
@@ -99,7 +102,7 @@
       "name": "USB 반출 신청서",
       "text": "윤팀장 USB는 반납 서명이 있고 일련번호가 다르다.",
       "icon": "usb",
-      "room": "office",
+      "room": "storage",
       "evidence": false,
       "decoy": true
     },
@@ -108,61 +111,199 @@
       "name": "경비 순찰 일지",
       "text": "21시에는 이미 USB 보관함이 비어 있었다.",
       "icon": "memo",
-      "room": "office",
+      "room": "storage",
       "evidence": false,
       "decoy": true
+    },
+    {
+      "id": "c5",
+      "name": "회사 출차 영수증",
+      "text": "한과장 차량은 18시 35분 주차장을 나갔다.",
+      "icon": "receipt",
+      "room": "entrance",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c6",
+      "name": "헬스장 출석 앱",
+      "text": "입장 시각 외의 운동 시작 시각은 기록되지 않았다.",
+      "icon": "phone",
+      "room": "office",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c7",
+      "name": "회사 복도 CCTV",
+      "text": "19시 20분 복도 영상은 역광으로 얼굴 구분이 어렵다.",
+      "icon": "cctv",
+      "room": "hallway",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c8",
+      "name": "야근 간식 영수증",
+      "text": "차신입은 20시 40분 배달 간식을 받았다.",
+      "icon": "receipt",
+      "room": "entrance",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c9",
+      "name": "USB 일련번호 목록",
+      "text": "도난 USB와 윤팀장의 반출 USB는 다른 제품이다.",
+      "icon": "usb",
+      "room": "office",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c10",
+      "name": "현금 출납 장부",
+      "text": "현금 50만 원과 USB는 서로 다른 보관함에 있었다.",
+      "icon": "documents",
+      "room": "storage",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c11",
+      "name": "복합기 출력 용지",
+      "text": "19시 20분 인쇄된 문서 제목 일부에 설계 관련 단어가 있다.",
+      "icon": "documents",
+      "room": "hallway",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c12",
+      "name": "헬스장 거리 메모",
+      "text": "회사와 헬스장 사이 이동에는 교통 사정이 영향을 준다.",
+      "icon": "memo",
+      "room": "entrance",
+      "evidence": false,
+      "decoy": false
     }
   ],
   "hotspots": [
     {
       "id": "h0",
       "room": "office",
-      "x": 20,
-      "y": 25,
+      "x": 19,
+      "y": 24,
       "clue": "c0",
       "label": "헬스장 입장 기록"
     },
     {
       "id": "h1",
-      "room": "office",
-      "x": 47,
-      "y": 25,
+      "room": "hallway",
+      "x": 19,
+      "y": 24,
       "clue": "c1",
       "label": "복합기 인쇄 로그"
     },
     {
       "id": "h2",
       "room": "office",
-      "x": 74,
-      "y": 24,
+      "x": 46,
+      "y": 29,
       "clue": "c2",
       "label": "현금 봉투"
     },
     {
       "id": "h3",
-      "room": "office",
-      "x": 88,
-      "y": 51,
+      "room": "storage",
+      "x": 19,
+      "y": 24,
       "clue": "c3",
       "label": "USB 반출 신청서"
     },
     {
       "id": "h4",
-      "room": "office",
-      "x": 62,
-      "y": 57,
+      "room": "storage",
+      "x": 46,
+      "y": 29,
       "clue": "c4",
       "label": "경비 순찰 일지"
+    },
+    {
+      "id": "h5",
+      "room": "entrance",
+      "x": 19,
+      "y": 24,
+      "clue": "c5",
+      "label": "회사 출차 영수증"
+    },
+    {
+      "id": "h6",
+      "room": "office",
+      "x": 77,
+      "y": 22,
+      "clue": "c6",
+      "label": "헬스장 출석 앱"
+    },
+    {
+      "id": "h7",
+      "room": "hallway",
+      "x": 46,
+      "y": 29,
+      "clue": "c7",
+      "label": "회사 복도 CCTV"
+    },
+    {
+      "id": "h8",
+      "room": "entrance",
+      "x": 46,
+      "y": 29,
+      "clue": "c8",
+      "label": "야근 간식 영수증"
+    },
+    {
+      "id": "h9",
+      "room": "office",
+      "x": 28,
+      "y": 70,
+      "clue": "c9",
+      "label": "USB 일련번호 목록"
+    },
+    {
+      "id": "h10",
+      "room": "storage",
+      "x": 77,
+      "y": 22,
+      "clue": "c10",
+      "label": "현금 출납 장부"
+    },
+    {
+      "id": "h11",
+      "room": "hallway",
+      "x": 77,
+      "y": 22,
+      "clue": "c11",
+      "label": "복합기 출력 용지"
+    },
+    {
+      "id": "h12",
+      "room": "entrance",
+      "x": 77,
+      "y": 22,
+      "clue": "c12",
+      "label": "헬스장 거리 메모"
     }
   ],
   "solution": {
     "culprit": "s1",
     "evidenceClues": [
       "c0",
-      "c1"
+      "c1",
+      "c11"
     ],
-    "explanation": "한과장은 헬스장에 곧장 갔다고 했지만 입장까지 긴 공백이 있었고, 퇴근 후 복귀하지 않았다는 말은 복합기 기록으로 반박된다. 현금 도둑과 USB 도둑은 별개다."
+    "explanation": "한과장은 헬스장에 곧장 갔다고 했지만 입장까지 긴 공백이 있었고, 퇴근 후 복귀하지 않았다는 말은 복합기 기록으로 반박된다. 현금 도둑과 USB 도둑은 별개다. 추가로 '복합기 출력 용지' 기록이 정황을 보강한다."
   },
-  "maxInvestigations": 8,
-  "maxAttempts": 2
+  "maxInvestigations": 13,
+  "maxAttempts": 2,
+  "assetVersion": "atlas-v1.4"
 }

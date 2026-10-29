@@ -1,11 +1,14 @@
 {
   "id": "case-07",
   "title": "쌍둥이의 알리바이",
-  "difficulty": "보통",
-  "story": "20:10~20:20 생일 파티에서 케이크 위 약혼반지 상자가 사라졌다.",
+  "difficulty": "어려움",
+  "story": "20:10~20:20 생일 파티에서 케이크 위 약혼반지 상자가 사라졌다. 사건 관련 기록은 여러 공간에 흩어져 있다. 서로 다른 장소의 기록과 진술을 대조해야 한다.",
   "victim": "파티 주최자",
   "rooms": [
-    "living"
+    "living",
+    "bedroom",
+    "staircase",
+    "balcony"
   ],
   "suspects": [
     {
@@ -81,7 +84,7 @@
       "name": "연두색 페인트",
       "text": "하준 재킷 소매에 2층 방문과 같은 페인트가 묻어 있다.",
       "icon": "cloth",
-      "room": "living",
+      "room": "bedroom",
       "evidence": true,
       "decoy": false
     },
@@ -90,7 +93,7 @@
       "name": "쌍둥이 액자",
       "text": "하율은 왼손잡이라 시계를 오른손목에 찬다는 설명이 있다.",
       "icon": "photo",
-      "room": "living",
+      "room": "bedroom",
       "evidence": false,
       "decoy": true
     },
@@ -99,7 +102,7 @@
       "name": "선물 상자",
       "text": "소이 가방에 반지 상자처럼 보이는 작은 상자가 있다.",
       "icon": "box",
-      "room": "living",
+      "room": "staircase",
       "evidence": false,
       "decoy": true
     },
@@ -108,61 +111,199 @@
       "name": "귀걸이 영수증",
       "text": "선물 상자는 귀걸이 제품 포장임을 알 수 있다.",
       "icon": "receipt",
-      "room": "living",
+      "room": "balcony",
       "evidence": false,
       "decoy": true
+    },
+    {
+      "id": "c5",
+      "name": "파티 단체사진",
+      "text": "19시 55분 사진에서 형제 둘은 같은 색 재킷을 입고 있다.",
+      "icon": "photo",
+      "room": "living",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c6",
+      "name": "손목 착용 메모",
+      "text": "하율은 왼손잡이라 시계를 오른쪽에 착용한다.",
+      "icon": "watch",
+      "room": "living",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c7",
+      "name": "2층 페인트 통",
+      "text": "방문에 칠한 연두색 페인트가 완전히 마르지 않았다.",
+      "icon": "box",
+      "room": "staircase",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c8",
+      "name": "계단 카펫 자국",
+      "text": "계단에 발자국이 있지만 쌍둥이의 신발 크기는 같다.",
+      "icon": "footprint",
+      "room": "staircase",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c9",
+      "name": "케이크 영수증",
+      "text": "케이크는 19시 30분에 배달되었다.",
+      "icon": "receipt",
+      "room": "bedroom",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c10",
+      "name": "사촌의 메시지",
+      "text": "다은은 누가 계단으로 올라갔는지 처음엔 확신하지 못했다.",
+      "icon": "phone",
+      "room": "staircase",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c11",
+      "name": "귀걸이 사진",
+      "text": "소이의 선물 상자 내용물은 반지가 아닌 귀걸이다.",
+      "icon": "photo",
+      "room": "living",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c12",
+      "name": "현관 출입문",
+      "text": "20시 10분 이후 밖으로 나간 기록은 남지 않았다.",
+      "icon": "key",
+      "room": "balcony",
+      "evidence": false,
+      "decoy": false
     }
   ],
   "hotspots": [
     {
       "id": "h0",
       "room": "living",
-      "x": 20,
-      "y": 25,
+      "x": 19,
+      "y": 24,
       "clue": "c0",
       "label": "소파 사진"
     },
     {
       "id": "h1",
-      "room": "living",
-      "x": 47,
-      "y": 25,
+      "room": "bedroom",
+      "x": 19,
+      "y": 24,
       "clue": "c1",
       "label": "연두색 페인트"
     },
     {
       "id": "h2",
-      "room": "living",
-      "x": 74,
-      "y": 24,
+      "room": "bedroom",
+      "x": 46,
+      "y": 29,
       "clue": "c2",
       "label": "쌍둥이 액자"
     },
     {
       "id": "h3",
-      "room": "living",
-      "x": 88,
-      "y": 51,
+      "room": "staircase",
+      "x": 19,
+      "y": 24,
       "clue": "c3",
       "label": "선물 상자"
     },
     {
       "id": "h4",
-      "room": "living",
-      "x": 62,
-      "y": 57,
+      "room": "balcony",
+      "x": 19,
+      "y": 24,
       "clue": "c4",
       "label": "귀걸이 영수증"
+    },
+    {
+      "id": "h5",
+      "room": "living",
+      "x": 46,
+      "y": 29,
+      "clue": "c5",
+      "label": "파티 단체사진"
+    },
+    {
+      "id": "h6",
+      "room": "living",
+      "x": 77,
+      "y": 22,
+      "clue": "c6",
+      "label": "손목 착용 메모"
+    },
+    {
+      "id": "h7",
+      "room": "staircase",
+      "x": 46,
+      "y": 29,
+      "clue": "c7",
+      "label": "2층 페인트 통"
+    },
+    {
+      "id": "h8",
+      "room": "staircase",
+      "x": 77,
+      "y": 22,
+      "clue": "c8",
+      "label": "계단 카펫 자국"
+    },
+    {
+      "id": "h9",
+      "room": "bedroom",
+      "x": 77,
+      "y": 22,
+      "clue": "c9",
+      "label": "케이크 영수증"
+    },
+    {
+      "id": "h10",
+      "room": "staircase",
+      "x": 28,
+      "y": 70,
+      "clue": "c10",
+      "label": "사촌의 메시지"
+    },
+    {
+      "id": "h11",
+      "room": "living",
+      "x": 28,
+      "y": 70,
+      "clue": "c11",
+      "label": "귀걸이 사진"
+    },
+    {
+      "id": "h12",
+      "room": "balcony",
+      "x": 46,
+      "y": 29,
+      "clue": "c12",
+      "label": "현관 출입문"
     }
   ],
   "solution": {
     "culprit": "s0",
     "evidenceClues": [
       "c0",
-      "c1"
+      "c1",
+      "c6"
     ],
-    "explanation": "소파 사진 속 인물은 액자의 손목시계 습관을 대조하면 하율이다. 하준의 2층 출입은 소매의 페인트가 뒷받침한다."
+    "explanation": "소파 사진 속 인물은 액자의 손목시계 습관을 대조하면 하율이다. 하준의 2층 출입은 소매의 페인트가 뒷받침한다. 추가로 '손목 착용 메모' 기록이 정황을 보강한다."
   },
-  "maxInvestigations": 8,
-  "maxAttempts": 2
+  "maxInvestigations": 13,
+  "maxAttempts": 2,
+  "assetVersion": "atlas-v1.4"
 }

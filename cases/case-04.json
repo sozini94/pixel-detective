@@ -1,11 +1,14 @@
 {
   "id": "case-04",
   "title": "제야의 정전",
-  "difficulty": "보통",
-  "story": "12월 31일 오후 8시, 5분간의 정전 중 장식장의 은시계가 사라졌다.",
+  "difficulty": "어려움",
+  "story": "12월 31일 오후 8시, 5분간의 정전 중 장식장의 은시계가 사라졌다. 사건 관련 기록은 여러 공간에 흩어져 있다. 서로 다른 장소의 기록과 진술을 대조해야 한다.",
   "victim": "집주인",
   "rooms": [
-    "living"
+    "living",
+    "kitchen",
+    "entrance",
+    "balcony"
   ],
   "suspects": [
     {
@@ -72,7 +75,7 @@
       "name": "이웃집 불빛",
       "text": "정전 중에도 창밖 이웃집에는 불이 켜져 있었다.",
       "icon": "photo",
-      "room": "living",
+      "room": "balcony",
       "evidence": true,
       "decoy": false
     },
@@ -81,7 +84,7 @@
       "name": "열쇠걸이 메모",
       "text": "12/30 도현 반출이라는 열쇠 기록이 남아 있다.",
       "icon": "key",
-      "room": "living",
+      "room": "entrance",
       "evidence": true,
       "decoy": false
     },
@@ -99,7 +102,7 @@
       "name": "줄 교체 업무 메모",
       "text": "전날 은시계 줄 교체를 맡았다는 메모다.",
       "icon": "memo",
-      "room": "living",
+      "room": "entrance",
       "evidence": false,
       "decoy": true
     },
@@ -108,61 +111,199 @@
       "name": "주방 사진",
       "text": "20시 1분 주방 사진에 서윤이 찍혀 있다.",
       "icon": "photo",
-      "room": "living",
+      "room": "kitchen",
       "evidence": false,
       "decoy": true
+    },
+    {
+      "id": "c5",
+      "name": "차단기 점검 기록",
+      "text": "거실 회로 차단기는 정전 전 수동으로 내려간 흔적이 있다.",
+      "icon": "documents",
+      "room": "living",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c6",
+      "name": "이웃집 창문 사진",
+      "text": "20시 02분 사진에는 옆집 거실 조명이 켜져 있다.",
+      "icon": "photo",
+      "room": "balcony",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c7",
+      "name": "주방 초 사진",
+      "text": "20시 01분 서윤의 손에는 꺼진 촛불이 들려 있다.",
+      "icon": "photo",
+      "room": "living",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c8",
+      "name": "현관 출입 기록",
+      "text": "19시 48분 도현의 출입 기록이 있다. 퇴실 시각은 없다.",
+      "icon": "access_log",
+      "room": "entrance",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c9",
+      "name": "장식장 열쇠 고리",
+      "text": "열쇠고리에는 전날 반출 표시가 남아 있다.",
+      "icon": "key",
+      "room": "entrance",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c10",
+      "name": "집사 작업 도구",
+      "text": "구씨의 시계 수리 도구에는 오래된 금속 가루가 있다.",
+      "icon": "watch",
+      "room": "living",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c11",
+      "name": "친구의 메모",
+      "text": "하나는 정전 직후 서윤을 주방에서 보았다고 기록했다.",
+      "icon": "memo",
+      "room": "kitchen",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c12",
+      "name": "전기 점검 영수증",
+      "text": "외부 전력 회사의 정전 신고는 접수되지 않았다.",
+      "icon": "receipt",
+      "room": "kitchen",
+      "evidence": false,
+      "decoy": false
     }
   ],
   "hotspots": [
     {
       "id": "h0",
-      "room": "living",
-      "x": 20,
-      "y": 25,
+      "room": "balcony",
+      "x": 19,
+      "y": 24,
       "clue": "c0",
       "label": "이웃집 불빛"
     },
     {
       "id": "h1",
-      "room": "living",
-      "x": 47,
-      "y": 25,
+      "room": "entrance",
+      "x": 19,
+      "y": 24,
       "clue": "c1",
       "label": "열쇠걸이 메모"
     },
     {
       "id": "h2",
       "room": "living",
-      "x": 74,
+      "x": 19,
       "y": 24,
       "clue": "c2",
       "label": "은시계 줄 조각"
     },
     {
       "id": "h3",
-      "room": "living",
-      "x": 88,
-      "y": 51,
+      "room": "entrance",
+      "x": 46,
+      "y": 29,
       "clue": "c3",
       "label": "줄 교체 업무 메모"
     },
     {
       "id": "h4",
-      "room": "living",
-      "x": 62,
-      "y": 57,
+      "room": "kitchen",
+      "x": 19,
+      "y": 24,
       "clue": "c4",
       "label": "주방 사진"
+    },
+    {
+      "id": "h5",
+      "room": "living",
+      "x": 46,
+      "y": 29,
+      "clue": "c5",
+      "label": "차단기 점검 기록"
+    },
+    {
+      "id": "h6",
+      "room": "balcony",
+      "x": 46,
+      "y": 29,
+      "clue": "c6",
+      "label": "이웃집 창문 사진"
+    },
+    {
+      "id": "h7",
+      "room": "living",
+      "x": 77,
+      "y": 22,
+      "clue": "c7",
+      "label": "주방 초 사진"
+    },
+    {
+      "id": "h8",
+      "room": "entrance",
+      "x": 77,
+      "y": 22,
+      "clue": "c8",
+      "label": "현관 출입 기록"
+    },
+    {
+      "id": "h9",
+      "room": "entrance",
+      "x": 28,
+      "y": 70,
+      "clue": "c9",
+      "label": "장식장 열쇠 고리"
+    },
+    {
+      "id": "h10",
+      "room": "living",
+      "x": 28,
+      "y": 70,
+      "clue": "c10",
+      "label": "집사 작업 도구"
+    },
+    {
+      "id": "h11",
+      "room": "kitchen",
+      "x": 46,
+      "y": 29,
+      "clue": "c11",
+      "label": "친구의 메모"
+    },
+    {
+      "id": "h12",
+      "room": "kitchen",
+      "x": 77,
+      "y": 22,
+      "clue": "c12",
+      "label": "전기 점검 영수증"
     }
   ],
   "solution": {
     "culprit": "s1",
     "evidenceClues": [
       "c0",
-      "c1"
+      "c1",
+      "c5"
     ],
-    "explanation": "도현이 주장한 동네 전체 정전은 이웃집 불빛과 충돌하고, 열쇠를 가져간 적 없다는 말은 반출 메모와 모순이다."
+    "explanation": "도현이 주장한 동네 전체 정전은 이웃집 불빛과 충돌하고, 열쇠를 가져간 적 없다는 말은 반출 메모와 모순이다. 추가로 '차단기 점검 기록' 기록이 정황을 보강한다."
   },
-  "maxInvestigations": 8,
-  "maxAttempts": 2
+  "maxInvestigations": 13,
+  "maxAttempts": 2,
+  "assetVersion": "atlas-v1.4"
 }

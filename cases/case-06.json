@@ -1,11 +1,14 @@
 {
   "id": "case-06",
   "title": "영수증의 시각",
-  "difficulty": "보통",
-  "story": "골목 보석 가게 진열장이 새벽 2시경 깨지고 반지 한 개가 사라졌다.",
+  "difficulty": "어려움",
+  "story": "골목 보석 가게 진열장이 새벽 2시경 깨지고 반지 한 개가 사라졌다. 사건 관련 기록은 여러 공간에 흩어져 있다. 서로 다른 장소의 기록과 진술을 대조해야 한다.",
   "victim": "보석상",
   "rooms": [
-    "alley"
+    "alley",
+    "entrance",
+    "office",
+    "storage"
   ],
   "suspects": [
     {
@@ -81,7 +84,7 @@
       "name": "앞치마 단추",
       "text": "깨진 진열장 유리에 카페 앞치마 단추가 끼어 있다.",
       "icon": "gloves",
-      "room": "alley",
+      "room": "entrance",
       "evidence": true,
       "decoy": false
     },
@@ -90,7 +93,7 @@
       "name": "장갑의 유리 가루",
       "text": "방씨 장갑에 유리 가루가 묻어 있다.",
       "icon": "gloves",
-      "room": "alley",
+      "room": "office",
       "evidence": false,
       "decoy": true
     },
@@ -99,7 +102,7 @@
       "name": "순찰 신고 일지",
       "text": "방씨는 신고 후 유리 조각이 흩어진 현장을 확인했다.",
       "icon": "memo",
-      "room": "alley",
+      "room": "storage",
       "evidence": false,
       "decoy": true
     },
@@ -111,58 +114,196 @@
       "room": "alley",
       "evidence": false,
       "decoy": true
+    },
+    {
+      "id": "c5",
+      "name": "카페 문 열림 기록",
+      "text": "새벽 1시 이후 카페 정문 개방 기록이 없다. 후문 기록은 별도다.",
+      "icon": "key",
+      "room": "entrance",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c6",
+      "name": "카페 후문 사진",
+      "text": "카페 후문에서 보석 가게까지는 짧은 골목으로 연결된다.",
+      "icon": "photo",
+      "room": "entrance",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c7",
+      "name": "보석상 영수증",
+      "text": "분실된 반지는 전날 저녁 진열장에 등록되었다.",
+      "icon": "receipt",
+      "room": "office",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c8",
+      "name": "보험 약관",
+      "text": "보험 증액은 사건보다 앞서 처리되었다. 동기만으로 범인을 정할 수 없다.",
+      "icon": "documents",
+      "room": "storage",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c9",
+      "name": "신고 시각 메모",
+      "text": "최초 신고는 2시 03분, 소음 발생은 1시 50분경이었다.",
+      "icon": "memo",
+      "room": "alley",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c10",
+      "name": "앞치마 세탁표",
+      "text": "카페 앞치마의 단추는 같은 모델로 교체된 기록이 있다.",
+      "icon": "cloth",
+      "room": "storage",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c11",
+      "name": "진열장 CCTV",
+      "text": "충격으로 화면이 흔들려 얼굴은 확인되지 않는다.",
+      "icon": "cctv",
+      "room": "office",
+      "evidence": false,
+      "decoy": false
+    },
+    {
+      "id": "c12",
+      "name": "카페 결산 수첩",
+      "text": "연사장은 결산을 새벽 3시까지 했다고 메모했다. 메모 자체는 증거가 아니다.",
+      "icon": "memo",
+      "room": "alley",
+      "evidence": false,
+      "decoy": false
     }
   ],
   "hotspots": [
     {
       "id": "h0",
       "room": "alley",
-      "x": 20,
-      "y": 25,
+      "x": 19,
+      "y": 24,
       "clue": "c0",
       "label": "카페 경비 기록"
     },
     {
       "id": "h1",
-      "room": "alley",
-      "x": 47,
-      "y": 25,
+      "room": "entrance",
+      "x": 19,
+      "y": 24,
       "clue": "c1",
       "label": "앞치마 단추"
     },
     {
       "id": "h2",
-      "room": "alley",
-      "x": 74,
+      "room": "office",
+      "x": 19,
       "y": 24,
       "clue": "c2",
       "label": "장갑의 유리 가루"
     },
     {
       "id": "h3",
-      "room": "alley",
-      "x": 88,
-      "y": 51,
+      "room": "storage",
+      "x": 19,
+      "y": 24,
       "clue": "c3",
       "label": "순찰 신고 일지"
     },
     {
       "id": "h4",
       "room": "alley",
-      "x": 62,
-      "y": 57,
+      "x": 46,
+      "y": 29,
       "clue": "c4",
       "label": "응급실 접수증"
+    },
+    {
+      "id": "h5",
+      "room": "entrance",
+      "x": 46,
+      "y": 29,
+      "clue": "c5",
+      "label": "카페 문 열림 기록"
+    },
+    {
+      "id": "h6",
+      "room": "entrance",
+      "x": 77,
+      "y": 22,
+      "clue": "c6",
+      "label": "카페 후문 사진"
+    },
+    {
+      "id": "h7",
+      "room": "office",
+      "x": 46,
+      "y": 29,
+      "clue": "c7",
+      "label": "보석상 영수증"
+    },
+    {
+      "id": "h8",
+      "room": "storage",
+      "x": 46,
+      "y": 29,
+      "clue": "c8",
+      "label": "보험 약관"
+    },
+    {
+      "id": "h9",
+      "room": "alley",
+      "x": 77,
+      "y": 22,
+      "clue": "c9",
+      "label": "신고 시각 메모"
+    },
+    {
+      "id": "h10",
+      "room": "storage",
+      "x": 77,
+      "y": 22,
+      "clue": "c10",
+      "label": "앞치마 세탁표"
+    },
+    {
+      "id": "h11",
+      "room": "office",
+      "x": 77,
+      "y": 22,
+      "clue": "c11",
+      "label": "진열장 CCTV"
+    },
+    {
+      "id": "h12",
+      "room": "alley",
+      "x": 28,
+      "y": 70,
+      "clue": "c12",
+      "label": "카페 결산 수첩"
     }
   ],
   "solution": {
     "culprit": "s3",
     "evidenceClues": [
       "c0",
-      "c1"
+      "c1",
+      "c6"
     ],
-    "explanation": "연사장은 새벽 3시까지 카페에 있었다고 했지만 1시 10분부터 경비가 켜져 있었고, 보석 가게 출입 부인은 앞치마 단추와 맞지 않는다."
+    "explanation": "연사장은 새벽 3시까지 카페에 있었다고 했지만 1시 10분부터 경비가 켜져 있었고, 보석 가게 출입 부인은 앞치마 단추와 맞지 않는다. 추가로 '카페 후문 사진' 기록이 정황을 보강한다."
   },
-  "maxInvestigations": 8,
-  "maxAttempts": 2
+  "maxInvestigations": 13,
+  "maxAttempts": 2,
+  "assetVersion": "atlas-v1.4"
 }
