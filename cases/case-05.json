@@ -74,7 +74,7 @@
       "id": "c0",
       "name": "비상계단 로그",
       "text": "17시 41분 서대리 사원증이 20층 방향으로 기록됐다.",
-      "icon": "card",
+      "icon": "case-05/card",
       "room": "staircase",
       "evidence": true,
       "decoy": false
@@ -83,7 +83,7 @@
       "id": "c1",
       "name": "PC 사용 기록",
       "text": "서대리 PC는 17:25부터 18:05까지 사용 흔적이 없다.",
-      "icon": "laptop",
+      "icon": "case-05/laptop",
       "room": "office",
       "evidence": true,
       "decoy": false
@@ -92,7 +92,7 @@
       "id": "c2",
       "name": "임원실 지문",
       "text": "손잡이에서 변청소원 지문이 나왔다.",
-      "icon": "fingerprint",
+      "icon": "case-05/fingerprint",
       "room": "storage",
       "evidence": false,
       "decoy": true
@@ -101,7 +101,7 @@
       "id": "c3",
       "name": "청소 일지",
       "text": "전날 변청소원이 임원실을 청소했다.",
-      "icon": "memo",
+      "icon": "case-05/memo",
       "room": "storage",
       "evidence": false,
       "decoy": true
@@ -110,7 +110,7 @@
       "id": "c4",
       "name": "복합기 기록",
       "text": "고인턴의 출력물은 대학 과제였다.",
-      "icon": "documents",
+      "icon": "case-05/documents",
       "room": "hallway",
       "evidence": false,
       "decoy": true
@@ -119,7 +119,7 @@
       "id": "c5",
       "name": "20층 계단 입구",
       "text": "계단 문은 엘리베이터 점검 중에도 카드로 열 수 있다.",
-      "icon": "key",
+      "icon": "case-05/key",
       "room": "staircase",
       "evidence": false,
       "decoy": false
@@ -128,7 +128,7 @@
       "id": "c6",
       "name": "회의 참석 서명",
       "text": "임팀장의 17시 50분 회의 서명이 남아 있다.",
-      "icon": "documents",
+      "icon": "case-05/documents",
       "room": "office",
       "evidence": false,
       "decoy": false
@@ -137,7 +137,7 @@
       "id": "c7",
       "name": "서대리 노트북 충전기",
       "text": "충전기는 15층 책상에 꽂힌 채였다. 사람의 위치는 입증하지 못한다.",
-      "icon": "laptop",
+      "icon": "case-05/laptop",
       "room": "staircase",
       "evidence": false,
       "decoy": false
@@ -146,7 +146,7 @@
       "id": "c8",
       "name": "사내 메신저 알림",
       "text": "17시 48분 서대리에게 메시지가 갔지만 읽음 표시가 없다.",
-      "icon": "phone",
+      "icon": "case-05/phone",
       "room": "storage",
       "evidence": false,
       "decoy": false
@@ -155,7 +155,7 @@
       "id": "c9",
       "name": "복사실 커피",
       "text": "복사기 옆 컵에서 고인턴의 이름표가 발견됐다.",
-      "icon": "cup",
+      "icon": "case-05/cup",
       "room": "office",
       "evidence": false,
       "decoy": false
@@ -164,7 +164,7 @@
       "id": "c10",
       "name": "임원실 문 카드",
       "text": "임원실 출입문은 비상계단과 같은 카드 계열을 사용한다.",
-      "icon": "card",
+      "icon": "case-05/card",
       "room": "hallway",
       "evidence": false,
       "decoy": false
@@ -173,7 +173,7 @@
       "id": "c11",
       "name": "계단 안전 점검표",
       "text": "17시 30분부터 계단 출입을 막았다는 표시가 없다.",
-      "icon": "schedule",
+      "icon": "case-05/schedule",
       "room": "hallway",
       "evidence": false,
       "decoy": false
@@ -182,7 +182,7 @@
       "id": "c12",
       "name": "퇴근 사진",
       "text": "18시 12분 사무실 로비 사진에 서대리가 찍혀 있다.",
-      "icon": "photo",
+      "icon": "case-05/photo",
       "room": "office",
       "evidence": false,
       "decoy": false

@@ -61,7 +61,7 @@
       "id": "c0",
       "name": "로비 CCTV",
       "text": "21시 10분 로비 CCTV에 한비서가 찍혀 있다.",
-      "icon": "cctv",
+      "icon": "case-01/cctv",
       "room": "office",
       "evidence": true,
       "decoy": false
@@ -70,7 +70,7 @@
       "id": "c1",
       "name": "금고 번호 메모",
       "text": "한비서 서랍에서 금고 번호가 적힌 메모를 찾았다.",
-      "icon": "memo",
+      "icon": "case-01/memo",
       "room": "storage",
       "evidence": true,
       "decoy": false
@@ -79,7 +79,7 @@
       "id": "c2",
       "name": "금고 손잡이 지문",
       "text": "금고 손잡이에서 박대리 지문이 발견됐다.",
-      "icon": "fingerprint",
+      "icon": "case-01/fingerprint",
       "room": "storage",
       "evidence": false,
       "decoy": true
@@ -88,7 +88,7 @@
       "id": "c3",
       "name": "사장 일정표",
       "text": "15시 박대리 서류 보관 지시가 적혀 있다.",
-      "icon": "schedule",
+      "icon": "case-01/schedule",
       "room": "office",
       "evidence": false,
       "decoy": true
@@ -97,7 +97,7 @@
       "id": "c4",
       "name": "경리실 출입 기록",
       "text": "정경리는 21시까지 경리실에 있었다.",
-      "icon": "access_log",
+      "icon": "case-01/access_log",
       "room": "hallway",
       "evidence": false,
       "decoy": true
@@ -106,7 +106,7 @@
       "id": "c5",
       "name": "서랍 잠금 기록",
       "text": "비서석 서랍은 20시 58분에 열렸다. 서랍 열쇠 대여 기록은 비어 있다.",
-      "icon": "key",
+      "icon": "case-01/key",
       "room": "entrance",
       "evidence": false,
       "decoy": false
@@ -115,7 +115,7 @@
       "id": "c6",
       "name": "회의실 전화 메모",
       "text": "21시 무렵 사장실 내선은 통화 중이었다. 수신자는 기록되지 않았다.",
-      "icon": "phone_record",
+      "icon": "case-01/phone_record",
       "room": "office",
       "evidence": false,
       "decoy": false
@@ -124,7 +124,7 @@
       "id": "c7",
       "name": "비상구 카드",
       "text": "20시 55분 비상구 출입 기록에는 카드 끝자리 43만 찍혔다.",
-      "icon": "card",
+      "icon": "case-01/card",
       "room": "hallway",
       "evidence": false,
       "decoy": false
@@ -133,7 +133,7 @@
       "id": "c8",
       "name": "접수대 방문증",
       "text": "방문증에는 박대리의 이름이 있지만 발급 시각은 14시 48분이다.",
-      "icon": "visitor_pass",
+      "icon": "case-01/visitor_pass",
       "room": "entrance",
       "evidence": false,
       "decoy": false
@@ -142,7 +142,7 @@
       "id": "c9",
       "name": "복사실 출력물",
       "text": "금고 사용 지침의 마지막 페이지가 복사되어 있다. 작성자란은 공란이다.",
-      "icon": "documents",
+      "icon": "case-01/documents",
       "room": "storage",
       "evidence": false,
       "decoy": false
@@ -151,7 +151,7 @@
       "id": "c10",
       "name": "사무실 커피 컵",
       "text": "미지근한 커피 컵이 비서 책상에 남아 있다. 제조 시각을 특정할 수 없다.",
-      "icon": "cup",
+      "icon": "case-01/cup",
       "room": "office",
       "evidence": false,
       "decoy": false
@@ -160,7 +160,7 @@
       "id": "c11",
       "name": "근무표 변경본",
       "text": "정경리의 업무 종료 시각은 21시. 사장실 접근 권한은 없다.",
-      "icon": "schedule",
+      "icon": "case-01/schedule",
       "room": "hallway",
       "evidence": false,
       "decoy": false
@@ -169,7 +169,7 @@
       "id": "c12",
       "name": "문서 봉투",
       "text": "봉투에 적힌 보관 시각은 오후 3시 05분. 금고 손잡이 지문과 시각이 맞는다.",
-      "icon": "letter",
+      "icon": "case-01/letter",
       "room": "entrance",
       "evidence": false,
       "decoy": false

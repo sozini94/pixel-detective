@@ -74,7 +74,7 @@
       "id": "c0",
       "name": "이웃집 불빛",
       "text": "정전 중에도 창밖 이웃집에는 불이 켜져 있었다.",
-      "icon": "photo",
+      "icon": "case-04/photo",
       "room": "balcony",
       "evidence": true,
       "decoy": false
@@ -83,7 +83,7 @@
       "id": "c1",
       "name": "열쇠걸이 메모",
       "text": "12/30 도현 반출이라는 열쇠 기록이 남아 있다.",
-      "icon": "key",
+      "icon": "case-04/key",
       "room": "entrance",
       "evidence": true,
       "decoy": false
@@ -92,7 +92,7 @@
       "id": "c2",
       "name": "은시계 줄 조각",
       "text": "구씨 주머니에서 은시계 줄 조각이 발견됐다.",
-      "icon": "watch",
+      "icon": "case-04/watch",
       "room": "living",
       "evidence": false,
       "decoy": true
@@ -101,7 +101,7 @@
       "id": "c3",
       "name": "줄 교체 업무 메모",
       "text": "전날 은시계 줄 교체를 맡았다는 메모다.",
-      "icon": "memo",
+      "icon": "case-04/memo",
       "room": "entrance",
       "evidence": false,
       "decoy": true
@@ -110,7 +110,7 @@
       "id": "c4",
       "name": "주방 사진",
       "text": "20시 1분 주방 사진에 서윤이 찍혀 있다.",
-      "icon": "photo",
+      "icon": "case-04/photo",
       "room": "kitchen",
       "evidence": false,
       "decoy": true
@@ -119,7 +119,7 @@
       "id": "c5",
       "name": "차단기 점검 기록",
       "text": "거실 회로 차단기는 정전 전 수동으로 내려간 흔적이 있다.",
-      "icon": "documents",
+      "icon": "case-04/documents",
       "room": "living",
       "evidence": false,
       "decoy": false
@@ -128,7 +128,7 @@
       "id": "c6",
       "name": "이웃집 창문 사진",
       "text": "20시 02분 사진에는 옆집 거실 조명이 켜져 있다.",
-      "icon": "photo",
+      "icon": "case-04/photo",
       "room": "balcony",
       "evidence": false,
       "decoy": false
@@ -137,7 +137,7 @@
       "id": "c7",
       "name": "주방 초 사진",
       "text": "20시 01분 서윤의 손에는 꺼진 촛불이 들려 있다.",
-      "icon": "photo",
+      "icon": "case-04/photo",
       "room": "living",
       "evidence": false,
       "decoy": false
@@ -146,7 +146,7 @@
       "id": "c8",
       "name": "현관 출입 기록",
       "text": "19시 48분 도현의 출입 기록이 있다. 퇴실 시각은 없다.",
-      "icon": "access_log",
+      "icon": "case-04/access_log",
       "room": "entrance",
       "evidence": false,
       "decoy": false
@@ -155,7 +155,7 @@
       "id": "c9",
       "name": "장식장 열쇠 고리",
       "text": "열쇠고리에는 전날 반출 표시가 남아 있다.",
-      "icon": "key",
+      "icon": "case-04/key",
       "room": "entrance",
       "evidence": false,
       "decoy": false
@@ -164,7 +164,7 @@
       "id": "c10",
       "name": "집사 작업 도구",
       "text": "구씨의 시계 수리 도구에는 오래된 금속 가루가 있다.",
-      "icon": "watch",
+      "icon": "case-04/watch",
       "room": "living",
       "evidence": false,
       "decoy": false
@@ -173,7 +173,7 @@
       "id": "c11",
       "name": "친구의 메모",
       "text": "하나는 정전 직후 서윤을 주방에서 보았다고 기록했다.",
-      "icon": "memo",
+      "icon": "case-04/memo",
       "room": "kitchen",
       "evidence": false,
       "decoy": false
@@ -182,7 +182,7 @@
       "id": "c12",
       "name": "전기 점검 영수증",
       "text": "외부 전력 회사의 정전 신고는 접수되지 않았다.",
-      "icon": "receipt",
+      "icon": "case-04/receipt",
       "room": "kitchen",
       "evidence": false,
       "decoy": false

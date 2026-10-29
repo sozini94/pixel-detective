@@ -61,7 +61,7 @@
       "id": "c0",
       "name": "배달앱 기록",
       "text": "3시 12분, 골목 안 주소에 배달 완료 기록이 남아 있다.",
-      "icon": "phone",
+      "icon": "case-03/phone",
       "room": "entrance",
       "evidence": true,
       "decoy": false
@@ -70,7 +70,7 @@
       "id": "c1",
       "name": "볼트 커터 날",
       "text": "오토바이 수납함 공구에 노란 체인 코팅 조각이 끼어 있다.",
-      "icon": "knife",
+      "icon": "case-03/knife",
       "room": "storage",
       "evidence": true,
       "decoy": false
@@ -79,7 +79,7 @@
       "id": "c2",
       "name": "계산대 공백",
       "text": "편의점 계산대 기록에 3분간 공백이 있다.",
-      "icon": "receipt",
+      "icon": "case-03/receipt",
       "room": "alley",
       "evidence": false,
       "decoy": true
@@ -88,7 +88,7 @@
       "id": "c3",
       "name": "골목 CCTV",
       "text": "윤알바가 쓰레기를 버리고 바로 돌아오는 모습이다.",
-      "icon": "cctv",
+      "icon": "case-03/cctv",
       "room": "storage",
       "evidence": false,
       "decoy": true
@@ -97,7 +97,7 @@
       "id": "c4",
       "name": "잘린 체인",
       "text": "자물쇠 체인에는 절단 도구의 흔적이 선명하다.",
-      "icon": "key",
+      "icon": "case-03/key",
       "room": "hallway",
       "evidence": false,
       "decoy": true
@@ -106,7 +106,7 @@
       "id": "c5",
       "name": "배달 경로 지도",
       "text": "배달기록상 목적지는 도난 자전거가 세워진 가게 뒤편 골목이다.",
-      "icon": "phone",
+      "icon": "case-03/phone",
       "room": "entrance",
       "evidence": false,
       "decoy": false
@@ -115,7 +115,7 @@
       "id": "c6",
       "name": "편의점 쓰레기봉투",
       "text": "윤알바가 2시 20분에 버렸던 봉투와 CCTV가 일치한다.",
-      "icon": "box",
+      "icon": "case-03/box",
       "room": "alley",
       "evidence": false,
       "decoy": false
@@ -124,7 +124,7 @@
       "id": "c7",
       "name": "주차 영수증",
       "text": "오토바이 주차요금은 새벽 3시 이후 정산됐다.",
-      "icon": "receipt",
+      "icon": "case-03/receipt",
       "room": "storage",
       "evidence": false,
       "decoy": false
@@ -133,7 +133,7 @@
       "id": "c8",
       "name": "도로의 타이어 자국",
       "text": "가게 뒤에서 오토바이가 급하게 방향을 튼 흔적이 있다.",
-      "icon": "footprint",
+      "icon": "case-03/footprint",
       "room": "hallway",
       "evidence": false,
       "decoy": false
@@ -142,7 +142,7 @@
       "id": "c9",
       "name": "헬멧 사진",
       "text": "배달 기사의 헬멧 색과 CCTV의 색이 비슷하지만 화질이 흐리다.",
-      "icon": "photo",
+      "icon": "case-03/photo",
       "room": "entrance",
       "evidence": false,
       "decoy": false
@@ -151,7 +151,7 @@
       "id": "c10",
       "name": "자물쇠 포장",
       "text": "절단된 자물쇠는 노란 코팅 체인을 사용한 모델이다.",
-      "icon": "box",
+      "icon": "case-03/box",
       "room": "alley",
       "evidence": false,
       "decoy": false
@@ -160,7 +160,7 @@
       "id": "c11",
       "name": "인근 주민 메모",
       "text": "3시경 쇠붙이 소리가 들렸으나 정확한 방향은 불확실하다.",
-      "icon": "memo",
+      "icon": "case-03/memo",
       "room": "hallway",
       "evidence": false,
       "decoy": false
@@ -169,7 +169,7 @@
       "id": "c12",
       "name": "배달 결제 확인",
       "text": "주문 완료 수단은 앱 결제였고 고객 대면 여부는 확인되지 않는다.",
-      "icon": "card",
+      "icon": "case-03/card",
       "room": "entrance",
       "evidence": false,
       "decoy": false

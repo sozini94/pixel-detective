@@ -61,7 +61,7 @@
       "id": "c0",
       "name": "마감 점검표",
       "text": "22시 40분, 이매니저의 가스 점검 서명이 남아 있다.",
-      "icon": "schedule",
+      "icon": "case-02/schedule",
       "room": "kitchen",
       "evidence": true,
       "decoy": false
@@ -70,7 +70,7 @@
       "id": "c1",
       "name": "인수인계 시트",
       "text": "이매니저가 노트 위치 확인 항목에 서명했다.",
-      "icon": "documents",
+      "icon": "case-02/documents",
       "room": "storage",
       "evidence": true,
       "decoy": false
@@ -79,7 +79,7 @@
       "id": "c2",
       "name": "두꺼운 공책",
       "text": "최알바 가방에서 두꺼운 공책이 나왔다.",
-      "icon": "memo",
+      "icon": "case-02/memo",
       "room": "entrance",
       "evidence": false,
       "decoy": true
@@ -88,7 +88,7 @@
       "id": "c3",
       "name": "수업 필기",
       "text": "공책 안은 조리학과 수업 필기로 채워져 있다.",
-      "icon": "documents",
+      "icon": "case-02/documents",
       "room": "kitchen",
       "evidence": false,
       "decoy": true
@@ -97,7 +97,7 @@
       "id": "c4",
       "name": "케이크 포장지",
       "text": "최알바가 퇴근 전 케이크를 챙긴 흔적이다.",
-      "icon": "box",
+      "icon": "case-02/box",
       "room": "hallway",
       "evidence": false,
       "decoy": true
@@ -106,7 +106,7 @@
       "id": "c5",
       "name": "주방 출입 카드",
       "text": "22시 38분 카드 기록은 관리자의 공용 카드다. 사용자 이름은 남지 않는다.",
-      "icon": "access_card",
+      "icon": "case-02/access_card",
       "room": "entrance",
       "evidence": false,
       "decoy": false
@@ -115,7 +115,7 @@
       "id": "c6",
       "name": "폐기물 수거 기록",
       "text": "23시 폐기물 봉투에는 찢긴 포장지가 있었지만 노트 종이는 없다.",
-      "icon": "documents",
+      "icon": "case-02/documents",
       "room": "storage",
       "evidence": false,
       "decoy": false
@@ -124,7 +124,7 @@
       "id": "c7",
       "name": "가스 밸브 점검 사진",
       "text": "22시 40분 사진에 점검표의 필체가 보인다. 인물은 찍히지 않았다.",
-      "icon": "photo",
+      "icon": "case-02/photo",
       "room": "kitchen",
       "evidence": false,
       "decoy": false
@@ -133,7 +133,7 @@
       "id": "c8",
       "name": "주문 접수 메모",
       "text": "마지막 손님 주문은 21시 50분, 주방장은 22시에 퇴근했다.",
-      "icon": "memo",
+      "icon": "case-02/memo",
       "room": "hallway",
       "evidence": false,
       "decoy": false
@@ -142,7 +142,7 @@
       "id": "c9",
       "name": "냉장고 열림 알림",
       "text": "21시 57분 냉장고 문이 열렸다. 케이크가 없어지기 전 시각이다.",
-      "icon": "phone",
+      "icon": "case-02/phone",
       "room": "entrance",
       "evidence": false,
       "decoy": false
@@ -151,7 +151,7 @@
       "id": "c10",
       "name": "열쇠 꾸러미",
       "text": "직원 셋 모두 열쇠가 있어 열쇠 소지만으로는 범인을 알 수 없다.",
-      "icon": "key",
+      "icon": "case-02/key",
       "room": "entrance",
       "evidence": false,
       "decoy": false
@@ -160,7 +160,7 @@
       "id": "c11",
       "name": "밀가루 통 흔적",
       "text": "노트를 놓던 자리의 밀가루가 최근 쓸려 나간 흔적이다.",
-      "icon": "gloves",
+      "icon": "case-02/gloves",
       "room": "hallway",
       "evidence": false,
       "decoy": false
@@ -169,7 +169,7 @@
       "id": "c12",
       "name": "퇴근 영수증",
       "text": "최알바가 22시 이전에 교통카드를 사용한 기록이다.",
-      "icon": "receipt",
+      "icon": "case-02/receipt",
       "room": "storage",
       "evidence": false,
       "decoy": false

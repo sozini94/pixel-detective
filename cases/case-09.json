@@ -74,7 +74,7 @@
       "id": "c0",
       "name": "객실 정리 체크표",
       "text": "21시 10분 라와 마가 객실 정리에 서명했다.",
-      "icon": "memo",
+      "icon": "case-09/memo",
       "room": "kitchen",
       "evidence": true,
       "decoy": false
@@ -83,7 +83,7 @@
       "id": "c1",
       "name": "번호 변경 안내문",
       "text": "금고 번호 변경 안내문에 도셰프 확인 서명이 있다.",
-      "icon": "documents",
+      "icon": "case-09/documents",
       "room": "entrance",
       "evidence": true,
       "decoy": false
@@ -92,7 +92,7 @@
       "id": "c2",
       "name": "금고 앞 걸레 자국",
       "text": "금고 앞 바닥에서 마의 걸레 자국이 나왔다.",
-      "icon": "cloth",
+      "icon": "case-09/cloth",
       "room": "bathroom",
       "evidence": false,
       "decoy": true
@@ -101,7 +101,7 @@
       "id": "c3",
       "name": "청소 일지",
       "text": "마는 20시 40분에 주방 청소를 마쳤다.",
-      "icon": "memo",
+      "icon": "case-09/memo",
       "room": "bathroom",
       "evidence": false,
       "decoy": true
@@ -110,7 +110,7 @@
       "id": "c4",
       "name": "팁 기록부",
       "text": "라의 현금은 손님에게 받은 팁과 금액이 같다.",
-      "icon": "cash",
+      "icon": "case-09/cash",
       "room": "entrance",
       "evidence": false,
       "decoy": true
@@ -119,7 +119,7 @@
       "id": "c5",
       "name": "객실 체크인 기록",
       "text": "21시 10분 객실 정리 요청이 접수됐다.",
-      "icon": "access_log",
+      "icon": "case-09/access_log",
       "room": "kitchen",
       "evidence": false,
       "decoy": false
@@ -128,7 +128,7 @@
       "id": "c6",
       "name": "재고 조사 서식",
       "text": "도셰프가 주장한 주방 재고 조사의 서명란은 비어 있다.",
-      "icon": "documents",
+      "icon": "case-09/documents",
       "room": "kitchen",
       "evidence": false,
       "decoy": false
@@ -137,7 +137,7 @@
       "id": "c7",
       "name": "금고 번호 변경 일자",
       "text": "번호는 일주일 전에 바뀌었다.",
-      "icon": "memo",
+      "icon": "case-09/memo",
       "room": "storage",
       "evidence": false,
       "decoy": false
@@ -146,7 +146,7 @@
       "id": "c8",
       "name": "안채 정산 자료",
       "text": "고주인의 21시 05분 정산 영수증이 남았다.",
-      "icon": "receipt",
+      "icon": "case-09/receipt",
       "room": "storage",
       "evidence": false,
       "decoy": false
@@ -155,7 +155,7 @@
       "id": "c9",
       "name": "세탁실 출입표",
       "text": "마의 세탁실 출입은 21시 35분 이후다.",
-      "icon": "access_card",
+      "icon": "case-09/access_card",
       "room": "entrance",
       "evidence": false,
       "decoy": false
@@ -164,7 +164,7 @@
       "id": "c10",
       "name": "서비스 팁 봉투",
       "text": "라의 이름이 적힌 봉투에 팁이 보관돼 있다.",
-      "icon": "cash",
+      "icon": "case-09/cash",
       "room": "storage",
       "evidence": false,
       "decoy": false
@@ -173,7 +173,7 @@
       "id": "c11",
       "name": "주방 행주",
       "text": "행주가 젖어 있지만 주인이 누구인지는 확인할 수 없다.",
-      "icon": "cloth",
+      "icon": "case-09/cloth",
       "room": "kitchen",
       "evidence": false,
       "decoy": false
@@ -182,7 +182,7 @@
       "id": "c12",
       "name": "냉장고 사진",
       "text": "21시 15분 주방은 비어 있는 듯 보이나 카메라 사각지대가 있다.",
-      "icon": "photo",
+      "icon": "case-09/photo",
       "room": "bathroom",
       "evidence": false,
       "decoy": false

@@ -88,7 +88,7 @@
       "id": "c0",
       "name": "소파 아래 선글라스",
       "text": "거실 소파 아래에서 진의 선글라스가 발견됐다.",
-      "icon": "photo",
+      "icon": "case-10/photo",
       "room": "living",
       "evidence": true,
       "decoy": false
@@ -97,7 +97,7 @@
       "id": "c1",
       "name": "중고 거래 알림",
       "text": "진의 휴대폰에 같은 LP 구매 문의 답장이 20시에 도착했다.",
-      "icon": "phone",
+      "icon": "case-10/phone",
       "room": "living",
       "evidence": true,
       "decoy": false
@@ -106,7 +106,7 @@
       "id": "c2",
       "name": "택배 보관함 기록",
       "text": "택배 기사의 방문은 20시 10분에 끝났다.",
-      "icon": "documents",
+      "icon": "case-10/documents",
       "room": "kitchen",
       "evidence": true,
       "decoy": false
@@ -115,7 +115,7 @@
       "id": "c3",
       "name": "LP 크기 상자",
       "text": "우의 가방에서 LP 크기의 상자가 발견됐다.",
-      "icon": "box",
+      "icon": "case-10/box",
       "room": "living",
       "evidence": false,
       "decoy": true
@@ -124,7 +124,7 @@
       "id": "c4",
       "name": "보드게임 포장",
       "text": "상자 안에는 집들이 선물 보드게임이 들어 있다.",
-      "icon": "box",
+      "icon": "case-10/box",
       "room": "kitchen",
       "evidence": false,
       "decoy": true
@@ -133,7 +133,7 @@
       "id": "c5",
       "name": "주방 단체 사진",
       "text": "20시 30분 하와 우가 주방에서 요리 중인 사진이다.",
-      "icon": "photo",
+      "icon": "case-10/photo",
       "room": "kitchen",
       "evidence": false,
       "decoy": true
@@ -142,7 +142,7 @@
       "id": "c6",
       "name": "거실 시계 사진",
       "text": "20시 20분 거실 장식장에 LP가 보인다.",
-      "icon": "photo",
+      "icon": "case-10/photo",
       "room": "alley",
       "evidence": false,
       "decoy": false
@@ -151,7 +151,7 @@
       "id": "c7",
       "name": "택배 도착 알림",
       "text": "택배 기사 배송 완료 알림은 20시 10분에 왔다.",
-      "icon": "phone",
+      "icon": "case-10/phone",
       "room": "alley",
       "evidence": false,
       "decoy": false
@@ -160,7 +160,7 @@
       "id": "c8",
       "name": "주방 조리 기록",
       "text": "우와 하는 20시 30분 함께 요리 중이었다.",
-      "icon": "memo",
+      "icon": "case-10/memo",
       "room": "kitchen",
       "evidence": false,
       "decoy": false
@@ -169,7 +169,7 @@
       "id": "c9",
       "name": "보드게임 영수증",
       "text": "우가 구매한 선물은 보드게임이다.",
-      "icon": "receipt",
+      "icon": "case-10/receipt",
       "room": "balcony",
       "evidence": false,
       "decoy": false
@@ -178,7 +178,7 @@
       "id": "c10",
       "name": "대문 CCTV",
       "text": "20시 30분 출입구 앞 사람이 있지만 얼굴이 보이지 않는다.",
-      "icon": "cctv",
+      "icon": "case-10/cctv",
       "room": "alley",
       "evidence": false,
       "decoy": false
@@ -187,7 +187,7 @@
       "id": "c11",
       "name": "LP 거래 검색",
       "text": "같은 LP 중고거래 글이 19시 55분에 올라왔다. 구매자 신원은 비공개다.",
-      "icon": "laptop",
+      "icon": "case-10/laptop",
       "room": "living",
       "evidence": false,
       "decoy": false
@@ -196,7 +196,7 @@
       "id": "c12",
       "name": "주인 카드지갑",
       "text": "집주인의 카드지갑에 LP 구매 영수증이 들어 있다.",
-      "icon": "wallet",
+      "icon": "case-10/wallet",
       "room": "balcony",
       "evidence": false,
       "decoy": false
@@ -205,7 +205,7 @@
       "id": "c13",
       "name": "골목 통화 기록",
       "text": "20시 30분 택배 기사와의 통화를 입증하는 기록은 찾지 못했다.",
-      "icon": "phone_record",
+      "icon": "case-10/phone_record",
       "room": "balcony",
       "evidence": false,
       "decoy": false
